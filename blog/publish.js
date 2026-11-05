@@ -9,7 +9,7 @@ const out = [];
 for (const slug of SLUGS) {
   const p = posts.find(x => x.slug === slug);
   if (!p) { out.push(slug + ": nav posts.json"); continue; }
-  if (listHtml.includes(p.title.replace(/&/g, "&amp;"))) { out.push(slug + ": jau eksistē"); continue; }
+  if (listHtml.includes(p.title) || listHtml.includes(p.title.replace(/&/g, "&amp;").replace(/'/g, "&#39;"))) { out.push(slug + ": jau eksistē"); continue; }
   const content = await (await fetch(RAW + "posts/" + slug + ".html?t=" + Date.now())).text();
   const d = new DOMParser().parseFromString(await (await fetch("/blog_posts/new")).text(), "text/html");
   const f = d.querySelector('form[action="/blog_posts"]');
