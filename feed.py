@@ -11,6 +11,7 @@ import html
 import json
 import pathlib
 import re
+import time
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -22,8 +23,9 @@ OUT = HERE / "out"
 UA = {"User-Agent": "qajobboard-feed/1.0 (+https://www.qajobboard.com)"}
 NOW = datetime.now(timezone.utc)
 
-MAX_AGE_DAYS = 21          # vecākus darbus neņemam
-MAX_PER_COMPANY = 4        # lai viens uzņēmums neaizpilda visu lapu
+MAX_AGE_DAYS = 45          # darbi, kas vēl atvērti avotā; Jobboardly glabā 60 d., dzēš, kad pazūd no plūsmas
+MAX_PER_COMPANY = 6        # lai viens uzņēmums neaizpilda visu lapu
+HIMALAYAS_MAX_PAGES = 60   # 20 darbi lapā
 POST_LENGTH_DAYS = 30
 
 # ---------- filtri ----------
@@ -40,7 +42,9 @@ EXCLUDE_RE = re.compile(
     r"drive test|hardware test technician|construction|welding|chemist|"
     r"data quality|quality of earnings|call quality|quality coach|quality specialist - customer|"
     r"electrical|mechatronic|mechanical|nuclear|network security|coordinator|handler|"
-    r"\bhvac\b|civil|structural|battery|rf test|antenna|optical|validation technician",
+    r"\bhvac\b|civil|structural|battery|rf test|antenna|optical|validation technician|"
+    r"linguist|language|translat|transcri|annotat|rater|evaluator|data qa|ai trainer|"
+    r"writing|writer|tutor|bilingual|native speaker|freelance tester in|testers wanted",
     re.I,
 )
 
@@ -186,14 +190,27 @@ def src_ashby(slug):
 
 
 HIMALAYAS_QUERIES = ["qa engineer", "sdet", "software tester", "test automation", "quality assurance",
-                     "qa analyst", "test engineer", "qa lead", "test manager", "performance tester"]
+                     "qa analyst", "test engineer", "qa lead", "test manager", "performance tester",
+                     "qa automation", "quality engineer", "automation tester", "manual tester",
+                     "software engineer in test", "qa specialist", "test analyst", "mobile qa", "game tester"]
 
 
 def src_himalayas(query):
     out = []
-    for page in (1, 2):
+    for page in range(1, HIMALAYAS_MAX_PAGES + 1):
         q = urllib.parse.quote(query)
-        data = get(f"https://himalayas.app/jobs/api/search?q={q}&page={page}")
+        data = None
+        for wait in (2, 5, 15, 30):          # Himalayas reizēm atbild 503 – mēģinām vēlreiz
+            try:
+                data = get(f"https://himalayas.app/jobs/api/search?q={q}&page={page}")
+                break
+            except Exception:
+                time.sleep(wait)
+        if data is None:
+            break                            # paturam jau savāktās lapas
+        time.sleep(0.8)
+        if not data.get("jobs"):
+            break
         for j in data.get("jobs", []):
             if not is_qa(j["title"]):
                 continue
@@ -257,15 +274,68 @@ def src_remoteok(_):
     return out
 
 
+def src_smartrecruiters(slug):
+    out, seen = [], set()
+    for q in ("test", "qa", "quality"):
+        data = get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?q={q}&limit=100")
+        for j in data.get("content", []):
+            if j["id"] in seen or not is_qa(j["name"]):
+                continue
+            seen.add(j["id"])
+            loc = j.get("location") or {}
+            place = ", ".join(x for x in (loc.get("city"), loc.get("country", "").upper()) if x)
+            remote = loc.get("remote") or loc.get("fullyRemote")
+            out.append(job(id=f"sr-{slug}-{j['id']}", title=j["name"],
+                           company=(j.get("company") or {}).get("name", slug),
+                           job_type=job_type((j.get("typeOfEmployment") or {}).get("label", "")),
+                           location_type=loc_type(remote, "hybrid" if loc.get("hybrid") else ""),
+                           office_location=place,
+                           description=f"<p>{html.escape(j['name'])} at {html.escape((j.get('company') or {}).get('name', slug))}.</p>"
+                                       f"<p>Location: {html.escape(place or 'Remote')}</p>"
+                                       f"<p>See the full job description and apply on the company careers page.</p>",
+                           apply_url=f"https://jobs.smartrecruiters.com/{slug}/{j['id']}",
+                           date=parse_date(j.get("releasedDate")), source="smartrecruiters"))
+    return out
+
+
+def src_jobicy(_):
+    out = []
+    for j in get("https://jobicy.com/api/v2/remote-jobs?count=100").get("jobs", []):
+        if not is_qa(j.get("jobTitle", "")):
+            continue
+        geo = j.get("jobGeo", "")
+        out.append(job(id=f"jc-{j['id']}", title=html.unescape(j["jobTitle"]), company=j.get("companyName", ""),
+                       logo=j.get("companyLogo") or "", job_type=job_type(" ".join(j.get("jobType") or [])),
+                       location_type="remote",
+                       location_limits="" if geo.lower() in ("anywhere", "") else geo,
+                       description=j.get("jobDescription", ""), apply_url=j.get("url"),
+                       date=parse_date(j.get("pubDate")), source="jobicy"))
+    return out
+
+
+def src_workingnomads(_):
+    out = []
+    for j in get("https://www.workingnomads.com/api/exposed_jobs/"):
+        if not is_qa(j.get("title", "")):
+            continue
+        out.append(job(id="wn-" + re.sub(r"\W+", "-", j.get("url", ""))[-60:], title=j["title"],
+                       company=j.get("company_name", ""), location_type="remote",
+                       location_limits=j.get("location", "") if j.get("location", "").lower() != "anywhere" else "",
+                       description=j.get("description", ""), apply_url=j.get("url"),
+                       date=parse_date(j.get("pub_date")), source="workingnomads"))
+    return out
+
+
 # ---------- galvenais ----------
 def collect():
     companies = json.loads((HERE / "companies.json").read_text())
     tasks = [(src_greenhouse, s) for s in companies.get("greenhouse", [])]
     tasks += [(src_lever, s) for s in companies.get("lever", [])]
     tasks += [(src_ashby, s) for s in companies.get("ashby", [])]
-    tasks += [(src_himalayas, q) for q in HIMALAYAS_QUERIES]
+    tasks += [(src_smartrecruiters, s) for s in companies.get("smartrecruiters", [])]
+    tasks += [(src_jobicy, None), (src_workingnomads, None)]
     tasks += [(src_remotive, q) for q in ("qa", "test", "sdet", "quality")]
-    tasks += [(src_arbeitnow, p) for p in (1, 2, 3)]
+    tasks += [(src_arbeitnow, p) for p in range(1, 11)]
     tasks += [(src_remoteok, None)]
 
     errors, jobs = [], []
@@ -278,8 +348,12 @@ def collect():
             errors.append(f"{fn.__name__}({arg}): {e}")
             return []
 
-    with ThreadPoolExecutor(max_workers=12) as ex:
+    # Himalayas – lēnāk (2 paralēli), lai neatsakās ar 503; pārējie avoti paralēli
+    with ThreadPoolExecutor(max_workers=2) as hx, ThreadPoolExecutor(max_workers=12) as ex:
+        hfut = hx.map(run, [(src_himalayas, q) for q in HIMALAYAS_QUERIES])
         for res in ex.map(run, tasks):
+            jobs.extend(res)
+        for res in hfut:
             jobs.extend(res)
     return jobs, errors
 
@@ -365,7 +439,8 @@ def main():
     for j in jobs:
         by_src[j["source"]] = by_src.get(j["source"], 0) + 1
     last24 = sum(1 for j in jobs if j["date"] >= NOW - timedelta(days=1))
-    print(f"{len(jobs)} darbi (no {len(raw)} atrastajiem), pēdējās 24h: {last24}. Avoti: {by_src}")
+    remote = sum(1 for j in jobs if j["location_type"] == "remote")
+    print(f"{len(jobs)} darbi (remote: {remote}, no {len(raw)} atrastajiem), pēdējās 24h: {last24}. Avoti: {by_src}")
     if errors:
         print(f"{len(errors)} kļūdas, piem.: {errors[:3]}")
 

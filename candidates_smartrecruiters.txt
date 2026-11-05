@@ -1,0 +1,10 @@
+# SmartRecruiters uzņēmumu ID (reģistrjutīgi)
+BoschGroup Visa ServiceNow Square Ubisoft2 Ubisoft Equinox Wolt LinkedIn Skechers McDonaldsCorporation
+Sephora AbbVie Atos Avanade Capgemini Experian Gartner Sitel Teleperformance Wix Spotify Ikea IKEA
+Continental ContinentalAG Siemens SiemensEnergy SAP Philips Accenture Deloitte DeloitteUS Infosys
+Cognizant Wipro TCS HCLTech TechMahindra Endava EPAM Globant Luxoft SoftServe Ciklum DataArt
+Intellias GridDynamics Thoughtworks Nagarro Netguru STXNext Itransition ScienceSoft Exadel
+Qualitest TestingXperts Cigniti Expleo ExpleoGroup Alten AltenGroup Akkodis Modis Adecco Randstad
+Bolt Revolut Paysafe Worldline Nexi Adyen Booking Trivago Delivery_Hero DeliveryHero Zalando
+Allegro OLX OLXGroup Prosus Naspers Takeaway JustEatTakeaway Ocado Tesco Sainsburys Vodafone
+TelekomAG DeutscheTelekom Orange Telia Tele2 Elisa Nokia Ericsson Bosch Valeo Aptiv Visteon Harman

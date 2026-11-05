@@ -21,3 +21,45 @@ toptal gitlab coursera udemy chegg zillow redfin opendoor carvana peloton wayfai
 attentive klaviyo braze iterable sendbird stream getstream twitch roblox niantic scopely
 crowdstrike sentinelone snyk 1password bitwarden lastpass tailscale cloudbees circleci harness
 launchdarkly optimizely split statsig flagsmith qualtrics surveymonkey calendly loom
+# --- Paplašinājums 2026-11-05 ---
+# SaaS / dev tools
+github jetbrains atlassian slack zoom box docusign dropboxsign smartsheet monday clickup wrike airtable coda
+mural lucid lucidsoftware figma framer webflow wix godaddy namecheap digitalocean linode vultr heroku render
+fly flyio railway planetscale neon cockroach redis redislabs couchbase yugabyte singlestore clickhouse
+starburst dremio airbyte hightouch census rudderstack mparticle heap fullstory logrocket pendo gainsight
+appcues userpilot chameleon walkme whatfix contentsquare quantummetric glassbox
+honeycomb lightstep chronosphere cribl observeinc sumologic logzio coralogix lacework orca wiz aquasec
+sysdig armis axonius tanium rapid7 tenable qualys checkmarx veracode sonarsource jfrog gitguardian
+semgrep endorlabs chainguard socket stackhawk
+# Fintech
+plaid stripe adyen checkout checkoutcom marqeta galileo unit treasuryprime column synctera
+modernTreasury moderntreasury ramp brex mercury airwallex rapyd payoneer paysafe nuvei worldline
+klarna affirm afterpay sezzle zip upstart sofi chime dave varo current n26 revolut monzo starling
+wise remitly xoom flywire bill billcom tipalti melio navan expensify pleo spendesk payhawk soldo
+robinhood public webull etoro trading212 freetrade kraken gemini bitpanda bitstamp ledger fireblocks
+chainalysis anchorage circle paxos
+# E-commerce / marketplaces
+shopify bigcommerce wix squarespace etsy ebay poshmark mercari depop vinted wallapop olx allegro
+zalando aboutyou asos boohoo farfetch mytheresa vestiairecollective backmarket refurbed
+instacart gopuff getir flink gorillas deliveroo justeat takeaway glovo wolt bolt
+doordash ubereats grubhub postmates
+# Travel / mobility
+booking expedia airbnb vrbo tripadvisor skyscanner kayak hopper getyourguide klook omio trainline
+blablacar flixbus lime tier voi bird dott cabify freenow
+# Health
+oscar ollie hims headspace calm noom ro zocdoc doximity teladoc amwell oura whoop
+# Gaming
+unity epicgames riotgames ubisoft wargaming paradox kingdigital king supercell rovio playrix
+miniclip zynga scopely jamcity moonactive playtika netmarble nexon bungie respawn
+# Europe / CEE / Baltics
+printful sumup n26 personio celonis contentful sennder trade-republic traderepublic raisin
+solarisbank mambu thoughtmachine tink mollie adyen messagebird bird miro hotjar typeform
+pipedrive veriff wise bolt glia twilio skeleton katana fortumo cleveron starship
+vinted nordsecurity nordvpn surfshark hostinger kilo oxylabs tesonet
+printify brainly docplanner booksy livechat text toggl
+genesys sitemark elastic elevenlabs synthesia deepl helsing
+# Consultancies / QA services / outsourcing
+endava epam globant luxoft softserve ciklum n-ix nix dataart intellias sigma grid griddynamics
+thoughtworks toptal andela turing x-team arc gun.io lemon lemonio
+qualitest testlio applause globalapptesting testbirds crowdtesting test-io testio rainforestqa
+mabl katalon testim functionize tricentis smartbear perfecto browserstack saucelabs lambdatest

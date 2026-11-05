@@ -1,0 +1,33 @@
+<!-- QA Job Board: strukturētie dati Google meklētājam (Organization + WebSite ar meklēšanu).
+     Ielīmēt: Jobboardly → Settings → Integrations → Third-party tools → Custom code
+     (zem esošā koda). Nesatur sīkdatnes, tāpēc der "unconditional" laukā. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.qajobboard.com/#org",
+      "name": "QA Job Board",
+      "url": "https://www.qajobboard.com/",
+      "logo": "https://www.qajobboard.com/og/board/22750623.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/company/qa-jobs-board",
+        "https://x.com/qajobboard"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.qajobboard.com/#website",
+      "name": "QA Job Board",
+      "url": "https://www.qajobboard.com/",
+      "publisher": { "@id": "https://www.qajobboard.com/#org" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.qajobboard.com/jobs?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
