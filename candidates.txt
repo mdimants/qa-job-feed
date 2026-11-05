@@ -1,0 +1,23 @@
+# Uzņēmumu slugi (Greenhouse / Lever / Ashby). discover.py pats atrod, kurš strādā.
+# QA / testēšanas uzņēmumi un rīki
+browserstack saucelabs lambdatest katalon testsigma mabl applitools qawolf testlio applause globalapptesting
+rainforestqa qase testrail practitest smartbear tricentis perforce checkly cypress cypressio postman
+testdevlab a1qa qualitest testingxperts cigniti scnsoft qamentor testfort qarea qatestlab
+# Lielie tech
+gitlab airbnb stripe dropbox cloudflare datadog robinhood coinbase discord figma reddit pinterest twilio
+okta mongodb elastic hubspot doordash instacart lyft affirm chime gusto brex samsara asana airtable duolingo
+grammarly toast squarespace vercel netlify hashicorp sentry newrelic pagerduty zscaler nubank monzo n26
+personio deliveryhero gorgias intercom zapier webflow miro canva atlassian spotify plaid palantir
+ramp notion linear openai anthropic deel posthog supabase replit retool vanta rippling mercury
+databricks snowflake confluent cockroachlabs grafanalabs temporal dbtlabs fivetran segment amplitude mixpanel
+mozilla wikimedia automattic gitbook doist buffer hotjar typeform contentful algolia sanity
+remote oyster lattice cultureamp hibob factorial
+# Eiropa / Baltija
+bolt wise revolut pipedrive veriff wolt printful mintos tietoevry emergn evolution playtech skyscanner
+booking trivago getyourguide hellofresh zalando sumup mollie adyen messagebird bunq klarna tink
+spotify king unity epicgames riotgames ubisoft wargaming paradox
+# Fintech / SaaS ar QA vakancēm
+toptal gitlab coursera udemy chegg zillow redfin opendoor carvana peloton wayfair etsy shopify
+attentive klaviyo braze iterable sendbird stream getstream twitch roblox niantic scopely
+crowdstrike sentinelone snyk 1password bitwarden lastpass tailscale cloudbees circleci harness
+launchdarkly optimizely split statsig flagsmith qualtrics surveymonkey calendly loom
