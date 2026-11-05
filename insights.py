@@ -43,6 +43,13 @@ COUNTRIES = ["United States", "USA", "India", "United Kingdom", "UK", "Germany",
 ALIAS = {"USA": "United States", "UK": "United Kingdom", "Czech": "Czechia"}
 
 
+def company_name(n):
+    n = n.strip()
+    for _ in range(2):
+        n = re.sub(r"[,\s]+(UK\s+)?(Limited|Ltd\.?|Inc\.?|LLC|GmbH|Pvt\.?|Pty\.?|Corporation|Corp\.?|Interactive)$", "", n, flags=re.I)
+    return n.strip(" ,")
+
+
 def annual_usd(j):
     try:
         lo = float(j["salary_min"] or 0)
@@ -101,7 +108,7 @@ def main():
     comp = defaultdict(lambda: {"jobs": 0, "titles": Counter(), "url": "", "logo": "", "where": Counter(),
                                 "salaries": []})
     for j in remote_ok:
-        c = comp[re.sub(r"\s+(UK\s+)?(Limited|Ltd|Inc\.?|LLC|GmbH|Pvt Ltd|Corporation)$", "", j["company"].strip(), flags=re.I)]
+        c = comp[company_name(j["company"])]
         c["jobs"] += 1
         c["titles"][j["title"]] += 1
         c["url"] = c["url"] or j["company_url"]
