@@ -429,9 +429,25 @@ def write_csv(jobs, path):
                         j["date"].strftime("%Y-%m-%d"), j["category"]])
 
 
+RAW = OUT / "raw_jobs.json"  # tikai GitHub Action iekšienē, netiek commitots
+
+
+def save_raw(raw):
+    RAW.write_text(json.dumps([{**j, "date": j["date"].isoformat() if j["date"] else None} for j in raw]))
+
+
+def load_raw():
+    out = []
+    for j in json.loads(RAW.read_text()):
+        j["date"] = datetime.fromisoformat(j["date"]) if j["date"] else None
+        out.append(j)
+    return out
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     raw, errors = collect()
+    save_raw(raw)
     jobs = clean(raw)
     write_xml(jobs, OUT / "jobs.xml")
     write_csv(jobs, OUT / "jobs.csv")
