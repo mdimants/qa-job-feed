@@ -22,7 +22,7 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
 ## Tēmas
 - [x] QA Engineer Salary in 2026: What QA Job Posts Actually Pay — 2026-11-05, /blog/qa-engineer-salary-2026
 - [x] The Most In-Demand QA Automation Tools in 2026 (from Real Job Posts) — 2026-11-05, /blog/most-in-demand-qa-automation-tools-2026
-- [ ] Remote QA Jobs in 2026: Who's Hiring and Where You Can Work From
+- [x] Remote QA Jobs in 2026: Who's Hiring and Where You Can Work From — 2026-11-05, /blog/remote-qa-jobs-2026-who-is-hiring
 - [x] How to Get Your First QA Job in 2026 (Junior QA Roadmap) — 2026-11-05, /blog/how-to-get-your-first-qa-job-2026
 - [ ] SDET vs QA Engineer: Differences in Skills, Salary and Demand
 - [ ] Playwright vs Selenium vs Cypress: What Employers Ask For in 2026
