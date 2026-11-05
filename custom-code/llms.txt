@@ -1,0 +1,54 @@
+# QA Job Board
+
+> QA Job Board (qajobboard.com) is a niche job board only for software quality assurance and testing roles: QA engineers, SDETs, test automation engineers, manual testers, QA analysts, performance testers, test leads and QA managers. New QA jobs from company career pages and remote job sources are added every day. Around 1,000 of the listings are fully remote. Job seekers can search and apply for free and get new QA jobs by email. Employers can post a QA job from $99 for 30 days.
+
+## Find QA jobs
+
+- [All QA jobs](https://www.qajobboard.com/jobs): every live QA, SDET and testing job, newest first
+- [Remote QA jobs](https://www.qajobboard.com/s/remote-jobs): remote QA and software testing jobs you can do from anywhere or within a region
+- [QA Engineer jobs](https://www.qajobboard.com/s/qa-engineer-jobs)
+- [QA Automation Engineer jobs](https://www.qajobboard.com/s/qa-automation-engineer-jobs)
+- [SDET jobs](https://www.qajobboard.com/s/software-development-engineer-in-test-sdet-jobs): Software Development Engineer in Test
+- [Senior QA Engineer jobs](https://www.qajobboard.com/s/senior-qa-engineer-jobs)
+- [Junior QA Engineer jobs](https://www.qajobboard.com/s/junior-qa-engineer-jobs): entry-level QA and tester roles
+- [Manual QA Tester jobs](https://www.qajobboard.com/s/qa-manual-tester-jobs)
+- [QA Analyst jobs](https://www.qajobboard.com/s/qa-analyst-jobs)
+- [Software Tester jobs](https://www.qajobboard.com/s/software-tester-jobs)
+- [Test Engineer jobs](https://www.qajobboard.com/s/test-engineer-jobs)
+- [Performance Tester jobs](https://www.qajobboard.com/s/performance-tester-jobs)
+- [Penetration Tester jobs](https://www.qajobboard.com/s/penetration-tester-jobs)
+- [QA Lead jobs](https://www.qajobboard.com/s/qa-lead-jobs)
+- [Test Lead jobs](https://www.qajobboard.com/s/test-lead-jobs)
+- [Test Manager jobs](https://www.qajobboard.com/s/test-manager-jobs)
+
+## QA jobs by country
+
+- [Germany](https://www.qajobboard.com/s/germany-jobs)
+- [Poland](https://www.qajobboard.com/s/poland-jobs)
+- [Spain](https://www.qajobboard.com/s/spain-jobs)
+- [Portugal](https://www.qajobboard.com/s/portugal-jobs)
+- [Romania](https://www.qajobboard.com/s/romania-jobs)
+- [Ukraine](https://www.qajobboard.com/s/ukraine-jobs)
+- [Canada](https://www.qajobboard.com/s/canada-jobs)
+- [Brazil](https://www.qajobboard.com/s/brazil-jobs)
+- [Latvia](https://www.qajobboard.com/s/latvia-jobs)
+- [Lithuania](https://www.qajobboard.com/s/lithuania-jobs)
+- [Estonia](https://www.qajobboard.com/s/estonia-jobs)
+
+## For employers
+
+- [Post a QA job](https://www.qajobboard.com/jobs/new): $99 Standard (30 days) or $199 Featured (pinned to the top, in the job email and on LinkedIn)
+- [Pricing](https://www.qajobboard.com/pricing)
+- [Contact](https://www.qajobboard.com/contact)
+
+## About
+
+- [Blog](https://www.qajobboard.com/blog)
+- [LinkedIn](https://www.linkedin.com/company/qa-jobs-board)
+- [Terms of Service](https://www.qajobboard.com/terms-of-service)
+- [Privacy Policy](https://www.qajobboard.com/privacy-policy)
+
+## Machine-readable
+
+- [Sitemap](https://www.qajobboard.com/sitemap.xml)
+- [RSS feed of new jobs](https://www.qajobboard.com/jobs.rss)
