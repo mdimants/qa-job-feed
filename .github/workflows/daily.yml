@@ -14,10 +14,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: python feed.py
+      - run: python linkedin.py
       - name: Commit feed
         run: |
           git config user.name "qa-feed-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add out/jobs.xml out/jobs.csv
+          git add out/jobs.xml out/jobs.csv out/linkedin.json out/linkedin
           git diff --cached --quiet || git commit -m "Feed $(date -u +%F)"
           git push
