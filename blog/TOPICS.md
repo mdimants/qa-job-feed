@@ -16,11 +16,14 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
 - S: Nedēļas QA darbu pārskats (skaitļi + 10 labākie darbi)
 - Sv: Intervijas jautājumi / CV / portfolio
 
+## Publicētās lapas, kas jāatjauno
+- /best-software-companies-to-work-for — katru dienu no out/companies_page.json (Jobboardly custom page 6988)
+
 ## Tēmas
-- [ ] QA Engineer Salary in 2026: What QA Job Posts Actually Pay
-- [ ] The Most In-Demand QA Automation Tools in 2026 (from Real Job Posts)
+- [x] QA Engineer Salary in 2026: What QA Job Posts Actually Pay — 2026-11-05, /blog/qa-engineer-salary-2026
+- [x] The Most In-Demand QA Automation Tools in 2026 (from Real Job Posts) — 2026-11-05, /blog/most-in-demand-qa-automation-tools-2026
 - [ ] Remote QA Jobs in 2026: Who's Hiring and Where You Can Work From
-- [ ] How to Get Your First QA Job in 2026 (Junior QA Roadmap)
+- [x] How to Get Your First QA Job in 2026 (Junior QA Roadmap) — 2026-11-05, /blog/how-to-get-your-first-qa-job-2026
 - [ ] SDET vs QA Engineer: Differences in Skills, Salary and Demand
 - [ ] Playwright vs Selenium vs Cypress: What Employers Ask For in 2026
 - [ ] Manual QA Tester Jobs in 2026: Is Manual Testing Still Hiring?
