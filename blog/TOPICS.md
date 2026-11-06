@@ -42,7 +42,7 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
 - [ ] QA Jobs in Poland, Romania and Ukraine
 - [ ] QA Jobs in Latin America for Remote US Companies
 - [ ] Testing AI and LLM Features: The New QA Skill
-- [ ] How to Hire a QA Engineer in 2026 (Guide for Startups)
+- [x] How to Hire a QA Engineer in 2026 (Guide for Startups) — 2026-11-06, /blog/how-to-hire-a-qa-engineer-2026
 - [ ] How Much Does a QA Engineer Cost? Salary Benchmarks for Employers
 - [ ] Where to Post QA Jobs: Job Boards for Testers Compared
 - [ ] QA Portfolio Projects That Get You Hired
