@@ -219,7 +219,7 @@ def src_himalayas(query):
             out.append(job(id="hm-" + re.sub(r"\W+", "-", j.get("guid", j["title"]))[-80:] + "-" + str(j.get("pubDate")),
                            title=j["title"], company=j.get("companyName", ""), logo=j.get("companyLogo") or "",
                            job_type=job_type(j.get("employmentType")), location_type="remote",
-                           location_limits=", ".join(limits), description=j.get("description", ""),
+                           location_limits=norm_limits(limits, True), description=j.get("description", ""),
                            apply_url=j.get("applicationLink"),
                            salary_min=j.get("minSalary") or "", salary_max=j.get("maxSalary") or "",
                            currency=j.get("currency") or "", salary_period=per if j.get("minSalary") else "",
@@ -358,6 +358,41 @@ def collect():
     return jobs, errors
 
 
+# Jobboardly saprot vienu valsti vai reģionu (Worldwide, Europe, LATAM, EMEA, APAC...).
+# Gari valstu saraksti tiek saglabāti kā teksts, un Google JobPosting tad trūkst applicantLocationRequirements.
+_R = lambda t: {x.strip() for x in t.split(";")}
+REG_EUROPE = _R("Albania;Andorra;Austria;Belarus;Belgium;Bosnia and Herzegovina;Bulgaria;Croatia;Cyprus;Czechia;Czech Republic;Denmark;Estonia;Faroe Islands;Finland;France;Germany;Gibraltar;Greece;Guernsey;Holy See (Vatican City State);Hungary;Iceland;Ireland;Isle of Man;Italy;Jersey;Kosovo;Latvia;Liechtenstein;Lithuania;Luxembourg;Malta;Moldova;Monaco;Montenegro;Netherlands;North Macedonia;Norway;Poland;Portugal;Romania;Russian Federation;Russia;San Marino;Serbia;Slovakia;Slovenia;Spain;Svalbard and Jan Mayen;Sweden;Switzerland;Ukraine;United Kingdom;Åland Islands;Armenia;Georgia;Azerbaijan;Turkey")
+REG_LATAM = _R("Anguilla;Antigua and Barbuda;Argentina;Aruba;Bahamas;Barbados;Belize;Bermuda;Bolivia;Bonaire;Sint Eustatius and Saba;Brazil;Cayman Islands;Chile;Colombia;Costa Rica;Cuba;Curaçao;Dominica;Dominican Republic;Ecuador;El Salvador;Falkland Islands (Malvinas);French Guiana;Grenada;Guadeloupe;Guatemala;Guyana;Haiti;Honduras;Jamaica;Martinique;Mexico;Montserrat;Nicaragua;Panama;Paraguay;Peru;Puerto Rico;Saint Barthélemy;Saint Kitts and Nevis;Saint Lucia;Saint Martin (French part);Saint Vincent and the Grenadines;Sint Maarten (Dutch part);South Georgia and the South Sandwich Islands;Suriname;Trinidad and Tobago;Turks and Caicos Islands;Uruguay;Venezuela;Virgin Islands")
+REG_NA = _R("United States;USA;Canada;Greenland;Saint Pierre and Miquelon;United States Minor Outlying Islands")
+REG_MEA = _R("Algeria;Angola;Bahrain;Benin;Botswana;Burkina Faso;Burundi;Cabo Verde;Cameroon;Central African Republic;Chad;Comoros;Congo;Côte d'Ivoire;Djibouti;Egypt;Equatorial Guinea;Eritrea;Eswatini;Ethiopia;Gabon;Gambia;Ghana;Guinea;Guinea-Bissau;Iran;Iraq;Israel;Jordan;Kenya;Kuwait;Lebanon;Lesotho;Liberia;Libya;Madagascar;Malawi;Mali;Mauritania;Mauritius;Mayotte;Morocco;Mozambique;Namibia;Niger;Nigeria;Oman;Palestine;Qatar;Rwanda;Réunion;Saint Helena;Sao Tome and Principe;Saudi Arabia;Senegal;Seychelles;Sierra Leone;Somalia;South Africa;South Sudan;Sudan;Syrian Arab Republic;Tanzania;Togo;Tunisia;Uganda;United Arab Emirates;Western Sahara;Yemen;Zambia;Zimbabwe")
+REG_APAC = _R("Afghanistan;American Samoa;Australia;Bangladesh;Bhutan;British Indian Ocean Territory;Brunei Darussalam;Cambodia;China;Christmas Island;Cocos (Keeling) Islands;Cook Islands;Fiji;French Polynesia;Guam;Hong Kong;India;Indonesia;Japan;Kazakhstan;Kiribati;Kyrgyzstan;Lao People's Democratic Republic;Macao;Malaysia;Maldives;Marshall Islands;Micronesia;Mongolia;Myanmar;Nauru;Nepal;New Caledonia;New Zealand;Niue;Norfolk Island;Northern Mariana Islands;Pakistan;Palau;Papua New Guinea;Philippines;Pitcairn;Samoa;Singapore;Solomon Islands;South Korea;Sri Lanka;Taiwan;Tajikistan;Thailand;Timor-Leste;Tokelau;Tonga;Turkmenistan;Tuvalu;Uzbekistan;Vanuatu;Vietnam;Wallis and Futuna")
+REGIONS = {"Europe": REG_EUROPE, "LATAM": REG_LATAM, "North America": REG_NA, "EMEA": REG_MEA, "APAC": REG_APAC}
+
+
+def norm_limits(limits, remote):
+    """Pārvērš valstu sarakstu vienā vērtībā, ko Jobboardly saprot."""
+    if isinstance(limits, (list, tuple)):
+        parts = [str(x).strip() for x in limits if str(x).strip()]
+    else:
+        parts = [x.strip() for x in str(limits or "").split(",") if x.strip()]
+    if not parts:
+        return "Worldwide" if remote else ""
+    if len(parts) < 5:
+        return ", ".join(parts)
+    count = {r: len(set(parts) & cs) for r, cs in REGIONS.items()}
+    known = sum(count.values())
+    used = [r for r, n in count.items() if n]
+    if known == 0:
+        return ", ".join(parts)
+    if known >= 100 or len(used) >= 3:
+        return "Worldwide"
+    if set(used) == {"Europe", "EMEA"}:
+        return "EMEA"
+    if set(used) == {"LATAM", "North America"}:
+        return "LATAM" if count["LATAM"] > count["North America"] else "North America"
+    return max(count, key=count.get)
+
+
 def clean(jobs):
     cutoff = NOW - timedelta(days=MAX_AGE_DAYS)
     seen, per_company, out = set(), {}, []
@@ -375,6 +410,7 @@ def clean(jobs):
         j["category"] = category(j["title"])
         if j["location_type"] != "remote" and not j["office_location"]:
             j["location_type"] = "remote"
+        j["location_limits"] = norm_limits(j.get("location_limits"), j["location_type"] == "remote")
         out.append(j)
     return out
 
