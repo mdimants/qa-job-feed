@@ -97,9 +97,15 @@ def where_short(where):
     parts = [CODES.get(p.strip(), p.strip()) for p in where.split(",") if p.strip()]
     if len(parts) <= 3:
         return ", ".join(parts)
-    if len(EUROPE & set(parts)) >= 5:
+    if len(EUROPE & set(parts)) >= 5 and not {"USA", "United States", "Canada", "India", "Brazil", "Mexico",
+                                                "Philippines", "Australia", "China", "Japan", "Nigeria"} & set(parts):
         return "Europe"
-    return f"{', '.join(parts[:2])} +{len(parts) - 2} more"
+    latam = {"Mexico", "Brazil", "Argentina", "Colombia", "Chile", "Peru", "Uruguay", "Costa Rica", "Ecuador"}
+    if len(latam & set(parts)) >= 4 and len(parts) <= 50:
+        return "Americas"
+    if len(parts) > 40:
+        return "Worldwide"
+    return f"{len(parts)} countries"
 
 
 def place(j):
@@ -118,9 +124,21 @@ def salary(j):
 GIG_RE = re.compile(r"testers? wanted|freelance tester|crowd|evaluator|rater|annotat", re.I)
 
 
+HISTORY = OUT / "linkedin_used.json"   # darbi, kas jau bijuši ierakstos pēdējās 14 dienās
+try:
+    USED = {u: d for u, d in json.loads(HISTORY.read_text()).items()
+            if d >= (TODAY - timedelta(days=14)).isoformat() and d != TODAY.isoformat()}
+except (FileNotFoundError, ValueError):
+    USED = {}
+TODAY_USED = set()
+
+
 def pick(jobs, n, cond=lambda j: True, days=3):
-    """Jaunākie darbi, ne vairāk kā 1 no uzņēmuma."""
+    """Jaunākie darbi, ne vairāk kā 1 no uzņēmuma, bez tiem, kas jau rādīti pēdējās 14 dienās."""
     jobs = [j for j in jobs if not GIG_RE.search(j["title"])]
+    fresh = [j for j in jobs if j["url"] not in USED and j["url"] not in TODAY_USED]
+    if len([j for j in fresh if cond(j)]) >= n:
+        jobs = fresh
     pool = [j for j in jobs if cond(j) and j["pub"] >= NOW - timedelta(days=days) and j["company"]]
     if len(pool) < n:
         pool = [j for j in jobs if cond(j) and j["company"]]
@@ -133,6 +151,7 @@ def pick(jobs, n, cond=lambda j: True, days=3):
         out.append(j)
         if len(out) == n:
             break
+    TODAY_USED.update(j["url"] for j in out)
     return out
 
 
@@ -152,6 +171,7 @@ def post_job_of_day(jobs):
     cands = pick(jobs, 15, days=2)
     with_sal = [j for j in cands if salary(j)]
     j = (with_sal or cands)[RNG.randrange(len(with_sal or cands))]
+    TODAY_USED.add(j["url"])
     s = salary(j)
     return (f"🔥 QA job of the day\n\n{j['title']}\n🏢 {j['company']}\n📍 {place(j)}" +
             (f"\n💰 {s}" if s else "") +
@@ -202,6 +222,8 @@ def main():
         {"time_utc": SCHEDULE_UTC[1], "type": "job_of_the_day", "text": post_job_of_day(jobs)},
         {"time_utc": SCHEDULE_UTC[2], "type": "theme", "text": post_theme(jobs)},
     ]
+    USED.update({u: TODAY.isoformat() for u in TODAY_USED})
+    HISTORY.write_text(json.dumps(USED, indent=0))
     (OUT / "linkedin").mkdir(parents=True, exist_ok=True)
     (OUT / "linkedin.json").write_text(json.dumps({"date": TODAY.isoformat(), "posts": posts},
                                                   ensure_ascii=False, indent=2), encoding="utf-8")
