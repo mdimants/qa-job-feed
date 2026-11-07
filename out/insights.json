@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-06",
- "total_jobs": 1200,
- "raw_found": 6793,
- "remote_jobs": 1099,
- "remote_share": 91.6,
- "new_last_7_days": 401,
- "companies": 764,
- "remote_companies": 707,
+ "generated": "2026-11-07",
+ "total_jobs": 1189,
+ "raw_found": 6792,
+ "remote_jobs": 1091,
+ "remote_share": 91.8,
+ "new_last_7_days": 380,
+ "companies": 756,
+ "remote_companies": 701,
  "categories": [
   [
    "QA Engineer",
-   315
+   317
   ],
   [
    "QA Automation Engineer",
@@ -18,34 +18,34 @@
   ],
   [
    "Senior QA Engineer",
-   154
+   151
   ],
   [
    "Software Tester",
-   134
+   132
   ],
   [
    "QA Analyst",
-   85
+   81
   ],
   [
    "Software Development Engineer in Test (SDET)",
-   63
+   61
   ],
   [
    "Test Engineer",
-   54
+   53
   ],
   [
    "QA Manual Tester",
    37
   ],
   [
-   "Test Manager",
+   "Performance Tester",
    30
   ],
   [
-   "Performance Tester",
+   "Test Manager",
    30
   ],
   [
@@ -54,39 +54,39 @@
   ],
   [
    "Junior QA Engineer",
-   25
+   24
   ],
   [
    "Test Lead",
-   20
+   21
   ],
   [
    "Penetration Tester",
-   14
+   13
   ]
  ],
  "seniority": [
   [
    "Mid-level",
-   689
+   679
   ],
   [
    "Senior",
-   269
+   264
   ],
   [
    "Lead / Manager",
-   192
+   197
   ],
   [
    "Junior",
-   50
+   49
   ]
  ],
  "job_types": [
   [
    "fulltime",
-   995
+   985
   ],
   [
    "contract",
@@ -94,7 +94,7 @@
   ],
   [
    "parttime",
-   20
+   19
   ],
   [
    "internship",
@@ -105,14 +105,32 @@
    4
   ]
  ],
- "salary_disclosed_share": 17.6,
+ "salary_disclosed_share": 18.0,
  "salary_overall": {
-  "n": 211,
-  "p25": 82000.0,
+  "n": 214,
+  "p25": 83000.0,
   "median": 110000.0,
   "p75": 132000.0
  },
  "salary_by_category": {
+  "QA Engineer": {
+   "n": 57,
+   "p25": 76000.0,
+   "median": 98000.0,
+   "p75": 115000.0
+  },
+  "Test Manager": {
+   "n": 11,
+   "p25": 109000.0,
+   "median": 161000.0,
+   "p75": 165000.0
+  },
+  "QA Automation Engineer": {
+   "n": 22,
+   "p25": 88000.0,
+   "median": 111000.0,
+   "p75": 122000.0
+  },
   "Senior QA Engineer": {
    "n": 37,
    "p25": 115000.0,
@@ -125,18 +143,6 @@
    "median": 117000.0,
    "p75": 118000.0
   },
-  "QA Engineer": {
-   "n": 56,
-   "p25": 76000.0,
-   "median": 100000.0,
-   "p75": 120000.0
-  },
-  "QA Automation Engineer": {
-   "n": 21,
-   "p25": 88000.0,
-   "median": 110000.0,
-   "p75": 120000.0
-  },
   "QA Lead": {
    "n": 6,
    "p25": 62000.0,
@@ -148,12 +154,6 @@
    "p25": 55000.0,
    "median": 75000.0,
    "p75": 98000.0
-  },
-  "Test Manager": {
-   "n": 10,
-   "p25": 109000.0,
-   "median": 158000.0,
-   "p75": 165000.0
   },
   "Software Development Engineer in Test (SDET)": {
    "n": 14,
@@ -169,23 +169,23 @@
   }
  },
  "salary_by_seniority": {
+  "Lead / Manager": {
+   "n": 58,
+   "p25": 98000.0,
+   "median": 138000.0,
+   "p75": 155000.0
+  },
+  "Mid-level": {
+   "n": 97,
+   "p25": 73000.0,
+   "median": 103000.0,
+   "p75": 115000.0
+  },
   "Senior": {
    "n": 45,
    "p25": 92000.0,
    "median": 117000.0,
    "p75": 132000.0
-  },
-  "Mid-level": {
-   "n": 97,
-   "p25": 74000.0,
-   "median": 104000.0,
-   "p75": 115000.0
-  },
-  "Lead / Manager": {
-   "n": 55,
-   "p25": 98000.0,
-   "median": 138000.0,
-   "p75": 155000.0
   },
   "Junior": {
    "n": 14,
@@ -194,96 +194,96 @@
    "p75": 98000.0
   }
  },
- "jobs_with_description": 1166,
+ "jobs_with_description": 1155,
  "tools": [
   [
    "Selenium",
-   341,
-   29.2
+   336,
+   29.1
   ],
   [
    "Playwright",
-   294,
-   25.2
+   297,
+   25.7
   ],
   [
    "SQL",
-   278,
-   23.8
+   271,
+   23.5
   ],
   [
    "Jira",
-   273,
-   23.4
+   271,
+   23.5
   ],
   [
    "Postman",
-   230,
-   19.7
+   233,
+   20.2
   ],
   [
    "Cypress",
-   207,
-   17.8
+   204,
+   17.7
   ],
   [
    "AWS",
-   164,
-   14.1
+   161,
+   13.9
   ],
   [
    "Jenkins",
-   151,
-   13.0
+   149,
+   12.9
   ],
   [
    "AI / LLM testing",
-   133,
+   132,
    11.4
   ],
   [
    "Docker",
-   128,
+   127,
    11.0
   ],
   [
    "JMeter",
-   113,
+   112,
    9.7
   ],
   [
    "GitHub Actions",
-   112,
+   111,
    9.6
   ],
   [
    "Kubernetes",
-   107,
-   9.2
+   105,
+   9.1
   ],
   [
    "Appium",
-   105,
+   104,
    9.0
   ],
   [
    "REST Assured",
-   93,
+   92,
    8.0
   ],
   [
    "Cucumber/BDD",
-   83,
+   82,
    7.1
   ],
   [
    "TestRail",
-   81,
+   80,
    6.9
   ],
   [
    "k6",
-   64,
+   63,
    5.5
   ],
   [
@@ -297,61 +297,61 @@
    1.9
   ],
   [
-   "WebdriverIO",
-   15,
-   1.3
-  ],
-  [
    "XCUITest",
    15,
    1.3
   ],
   [
+   "WebdriverIO",
+   14,
+   1.2
+  ],
+  [
    "Detox",
-   7,
-   0.6
+   8,
+   0.7
   ]
  ],
  "languages": [
   [
    "Python",
-   295,
-   25.3
+   290,
+   25.1
   ],
   [
    "JavaScript",
-   241,
-   20.7
+   235,
+   20.3
   ],
   [
    "Java",
-   221,
-   19.0
+   215,
+   18.6
   ],
   [
    "TypeScript",
-   169,
+   167,
    14.5
   ],
   [
    "C#",
-   99,
+   98,
    8.5
   ],
   [
    "Kotlin",
-   22,
-   1.9
+   20,
+   1.7
   ],
   [
    "Swift",
-   13,
-   1.1
+   12,
+   1.0
   ],
   [
    "Ruby",
-   13,
-   1.1
+   12,
+   1.0
   ],
   [
    "Go",
@@ -362,15 +362,15 @@
  "countries": [
   [
    "United States",
-   384
+   383
   ],
   [
    "India",
-   127
+   125
   ],
   [
    "Canada",
-   69
+   67
   ],
   [
    "Philippines",
@@ -382,22 +382,26 @@
   ],
   [
    "Mexico",
-   32
+   31
   ],
   [
    "United Kingdom",
-   28
+   29
   ],
   [
    "Brazil",
    27
   ],
   [
+   "Germany",
+   19
+  ],
+  [
    "Portugal",
    19
   ],
   [
-   "Germany",
+   "Colombia",
    18
   ],
   [
@@ -405,15 +409,7 @@
    18
   ],
   [
-   "Colombia",
-   17
-  ],
-  [
    "Romania",
-   14
-  ],
-  [
-   "Greece",
    14
   ],
   [
@@ -426,6 +422,10 @@
   ],
   [
    "Spain",
+   11
+  ],
+  [
+   "Greece",
    9
   ],
   [
@@ -433,24 +433,20 @@
    9
   ],
   [
-   "Egypt",
-   8
-  ],
-  [
    "Pakistan",
    8
   ],
   [
-   "Switzerland",
-   8
+   "Egypt",
+   7
   ],
   [
    "Singapore",
    7
   ],
   [
-   "Argentina",
-   6
+   "Switzerland",
+   7
   ],
   [
    "Sri Lanka",
@@ -459,6 +455,10 @@
   [
    "France",
    6
+  ],
+  [
+   "Argentina",
+   5
   ],
   [
    "Bulgaria",
@@ -494,22 +494,6 @@
    ],
    "where": [
     "India"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "EUROPEAN DYNAMICS",
-   "remote_jobs": 13,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/fuoymd6w6l0yk5f0nvipf7zkxios",
-   "example_titles": [
-    "Business Analyst/Software Tester fluent in Spanish",
-    "Performance/Resilience Test Engineer",
-    "Test Automation Engineer"
-   ],
-   "where": [
-    "Greece",
-    "Europe"
    ],
    "median_salary_usd": null
   },
@@ -573,6 +557,22 @@
     "United States"
    ],
    "median_salary_usd": 117000.0
+  },
+  {
+   "company": "EUROPEAN DYNAMICS",
+   "remote_jobs": 8,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/fuoymd6w6l0yk5f0nvipf7zkxios",
+   "example_titles": [
+    "Business Analyst/Software Tester fluent in Spanish",
+    "Performance/Resilience Test Engineer",
+    "Test Automation Engineer"
+   ],
+   "where": [
+    "Greece",
+    "Europe"
+   ],
+   "median_salary_usd": null
   },
   {
    "company": "TASQ Staffing Solutions",
@@ -809,21 +809,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "3M Consultancy",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "",
-   "example_titles": [
-    "Automation Tester with IRS MBI clearance",
-    "Sr Automation Tester with IRS MBI Clearance",
-    "Software Test Lead with IRS MBI Clearance"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "Sequoia Connect",
    "remote_jobs": 5,
    "url": "",
@@ -864,6 +849,22 @@
     "Sr. QA Tester- SOA"
    ],
    "where": [
+    "United States"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Lifted (an Upwork Company)",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "Native - Speakers Recording Quality Assurance",
+    "QA Manual Tester",
+    "Contract: Senior QA Engineer"
+   ],
+   "where": [
+    "Spain",
     "United States"
    ],
    "median_salary_usd": null
@@ -962,6 +963,21 @@
    "median_salary_usd": null
   },
   {
+   "company": "3M Consultancy",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "Automation Tester with IRS MBI clearance",
+    "Sr Automation Tester with IRS MBI Clearance",
+    "Software Test Lead with IRS MBI Clearance"
+   ],
+   "where": [
+    "United States"
+   ],
+   "median_salary_usd": null
+  },
+  {
    "company": "Vrinda International",
    "remote_jobs": 4,
    "url": "",
@@ -989,6 +1005,36 @@
    "where": [
     "India",
     "Colombia"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "SupportNinja",
+   "remote_jobs": 3,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/t9lke0vts8797j7sobbvywf04kds",
+   "example_titles": [
+    "Technical Support Engineer (SaaS and Test Automation) | REMOTE",
+    "Quality Assurance Team Leader",
+    "Software QA Tester (Automation Testing)"
+   ],
+   "where": [
+    "Philippines"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Cardinal Technology Systems",
+   "remote_jobs": 3,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "Junior Quality Assurance Specialist",
+    "Quality Assurance Specialist - Basic",
+    "Quality Assurance Manager - Basic"
+   ],
+   "where": [
+    "United States"
    ],
    "median_salary_usd": null
   },
@@ -1161,22 +1207,6 @@
    "where": [
     "4 countries",
     "United States"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Lifted (an Upwork Company)",
-   "remote_jobs": 3,
-   "url": "",
-   "logo": "",
-   "example_titles": [
-    "QA Manual Tester",
-    "Contract: Senior QA Engineer",
-    "Basque Speaker Recording Quality Assurance"
-   ],
-   "where": [
-    "United States",
-    "LATAM"
    ],
    "median_salary_usd": null
   },
@@ -1585,21 +1615,6 @@
    ],
    "where": [
     "Worldwide"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "TripleTen",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/615bszyvsqxkcd11gz9o9gvxzh6w",
-   "example_titles": [
-    "AI for QA Teaching Experts",
-    "Automation QA Teaching Experts (Python)"
-   ],
-   "where": [
-    "United States",
-    "LATAM"
    ],
    "median_salary_usd": null
   },
@@ -2444,20 +2459,6 @@
    ],
    "where": [
     "United Kingdom"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "SupportNinja",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/t9lke0vts8797j7sobbvywf04kds",
-   "example_titles": [
-    "Quality Assurance Team Leader",
-    "Software QA Tester (Automation Testing)"
-   ],
-   "where": [
-    "Philippines"
    ],
    "median_salary_usd": null
   },
