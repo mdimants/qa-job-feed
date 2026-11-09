@@ -1,28 +1,28 @@
 {
  "generated": "2026-11-09",
  "total_jobs": 1230,
- "raw_found": 6838,
- "remote_jobs": 1139,
- "remote_share": 92.6,
- "new_last_7_days": 269,
- "companies": 774,
- "remote_companies": 725,
+ "raw_found": 6915,
+ "remote_jobs": 1145,
+ "remote_share": 93.1,
+ "new_last_7_days": 264,
+ "companies": 776,
+ "remote_companies": 730,
  "categories": [
   [
    "QA Engineer",
-   328
+   326
   ],
   [
    "QA Automation Engineer",
-   214
+   213
   ],
   [
    "Senior QA Engineer",
-   156
+   157
   ],
   [
    "Software Tester",
-   131
+   135
   ],
   [
    "QA Analyst",
@@ -30,7 +30,7 @@
   ],
   [
    "Software Development Engineer in Test (SDET)",
-   65
+   63
   ],
   [
    "Test Engineer",
@@ -41,12 +41,12 @@
    37
   ],
   [
-   "Performance Tester",
+   "Test Manager",
    31
   ],
   [
-   "Test Manager",
-   30
+   "Performance Tester",
+   31
   ],
   [
    "QA Lead",
@@ -62,35 +62,35 @@
   ],
   [
    "Penetration Tester",
-   13
+   12
   ]
  ],
  "seniority": [
   [
    "Mid-level",
-   711
+   713
   ],
   [
    "Senior",
-   264
+   261
   ],
   [
    "Lead / Manager",
-   204
+   206
   ],
   [
    "Junior",
-   51
+   50
   ]
  ],
  "job_types": [
   [
    "fulltime",
-   1008
+   1006
   ],
   [
    "contract",
-   187
+   190
   ],
   [
    "parttime",
@@ -102,19 +102,25 @@
   ],
   [
    "temporary",
-   4
+   3
   ]
  ],
- "salary_disclosed_share": 17.9,
+ "salary_disclosed_share": 18.0,
  "salary_overall": {
-  "n": 220,
+  "n": 222,
   "p25": 84000.0,
   "median": 110000.0,
   "p75": 135000.0
  },
  "salary_by_category": {
+  "Test Manager": {
+   "n": 12,
+   "p25": 140000.0,
+   "median": 158000.0,
+   "p75": 165000.0
+  },
   "Senior QA Engineer": {
-   "n": 36,
+   "n": 37,
    "p25": 115000.0,
    "median": 128000.0,
    "p75": 153000.0
@@ -149,12 +155,6 @@
    "median": 110000.0,
    "p75": 120000.0
   },
-  "Test Manager": {
-   "n": 11,
-   "p25": 109000.0,
-   "median": 161000.0,
-   "p75": 165000.0
-  },
   "QA Automation Engineer": {
    "n": 20,
    "p25": 88000.0,
@@ -170,16 +170,16 @@
  },
  "salary_by_seniority": {
   "Lead / Manager": {
-   "n": 57,
+   "n": 58,
    "p25": 106000.0,
-   "median": 138000.0,
+   "median": 139000.0,
    "p75": 161000.0
   },
   "Senior": {
-   "n": 43,
-   "p25": 88000.0,
-   "median": 117000.0,
-   "p75": 135000.0
+   "n": 44,
+   "p25": 89000.0,
+   "median": 118000.0,
+   "p75": 137000.0
   },
   "Mid-level": {
    "n": 106,
@@ -194,7 +194,7 @@
    "p75": 98000.0
   }
  },
- "jobs_with_description": 1197,
+ "jobs_with_description": 1198,
  "tools": [
   [
    "Selenium",
@@ -203,28 +203,28 @@
   ],
   [
    "Playwright",
-   304,
-   25.4
+   303,
+   25.3
   ],
   [
    "Jira",
-   291,
-   24.3
+   289,
+   24.1
   ],
   [
    "SQL",
-   286,
-   23.9
+   287,
+   24.0
   ],
   [
    "Postman",
-   241,
-   20.1
+   242,
+   20.2
   ],
   [
    "Cypress",
-   206,
-   17.2
+   205,
+   17.1
   ],
   [
    "AWS",
@@ -237,12 +237,12 @@
    12.8
   ],
   [
-   "AI / LLM testing",
-   132,
-   11.0
+   "Docker",
+   130,
+   10.9
   ],
   [
-   "Docker",
+   "AI / LLM testing",
    130,
    10.9
   ],
@@ -253,18 +253,18 @@
   ],
   [
    "GitHub Actions",
-   114,
-   9.5
+   113,
+   9.4
   ],
   [
    "Kubernetes",
    106,
-   8.9
+   8.8
   ],
   [
    "Appium",
-   104,
-   8.7
+   105,
+   8.8
   ],
   [
    "REST Assured",
@@ -273,7 +273,7 @@
   ],
   [
    "Cucumber/BDD",
-   88,
+   89,
    7.4
   ],
   [
@@ -293,7 +293,7 @@
   ],
   [
    "Espresso",
-   22,
+   21,
    1.8
   ],
   [
@@ -315,23 +315,23 @@
  "languages": [
   [
    "Python",
-   293,
-   24.5
+   291,
+   24.3
   ],
   [
    "JavaScript",
-   241,
-   20.1
+   239,
+   19.9
   ],
   [
    "Java",
-   220,
-   18.4
+   219,
+   18.3
   ],
   [
    "TypeScript",
-   172,
-   14.4
+   170,
+   14.2
   ],
   [
    "C#",
@@ -340,8 +340,8 @@
   ],
   [
    "Kotlin",
-   21,
-   1.8
+   20,
+   1.7
   ],
   [
    "Swift",
@@ -362,15 +362,15 @@
  "countries": [
   [
    "United States",
-   399
+   404
   ],
   [
    "India",
-   129
+   130
   ],
   [
    "Canada",
-   73
+   71
   ],
   [
    "Philippines",
@@ -409,12 +409,12 @@
    18
   ],
   [
-   "South Africa",
+   "Romania",
    14
   ],
   [
-   "Romania",
-   14
+   "South Africa",
+   13
   ],
   [
    "Australia",
@@ -441,6 +441,10 @@
    8
   ],
   [
+   "France",
+   7
+  ],
+  [
    "Argentina",
    7
   ],
@@ -458,10 +462,6 @@
   ],
   [
    "Sri Lanka",
-   6
-  ],
-  [
-   "France",
    6
   ],
   [
@@ -731,19 +731,19 @@
    "median_salary_usd": 110000.0
   },
   {
-   "company": "ReWorks Solutions",
-   "remote_jobs": 5,
+   "company": "Xperteez Technology",
+   "remote_jobs": 6,
    "url": "",
-   "logo": "https://cdn-images.himalayas.app/9jsre22zsufqtazbxkwbgfloyjl3",
+   "logo": "https://cdn-images.himalayas.app/m68vtboghdo71fvod2gepzj5tyf1",
    "example_titles": [
-    "Healthcare Intake Specialist /QA Specialist",
-    "Compliance & QA Specialist",
-    "Quality Assurance Specialist"
+    "🌍 QA & Source Inspection, Remote- Contract",
+    "QA Engineer | Remote - Contract",
+    "QA Engineer – 2D & Creative Applications | Remote - Contract"
    ],
    "where": [
-    "South Africa"
+    "United States"
    ],
-   "median_salary_usd": null
+   "median_salary_usd": 120000.0
   },
   {
    "company": "HighLevel",
@@ -791,21 +791,6 @@
     "United States"
    ],
    "median_salary_usd": null
-  },
-  {
-   "company": "Xperteez Technology",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/m68vtboghdo71fvod2gepzj5tyf1",
-   "example_titles": [
-    "🌍 QA & Source Inspection, Remote- Contract",
-    "QA Engineer | Remote - Contract",
-    "QA Engineer – 2D & Creative Applications | Remote - Contract"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 120000.0
   },
   {
    "company": "IO Tech Solutions",
@@ -960,6 +945,21 @@
     "Portugal"
    ],
    "median_salary_usd": 36000.0
+  },
+  {
+   "company": "ReWorks Solutions",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/9jsre22zsufqtazbxkwbgfloyjl3",
+   "example_titles": [
+    "Healthcare Intake Specialist /QA Specialist",
+    "Compliance & QA Specialist",
+    "Quality Assurance Specialist"
+   ],
+   "where": [
+    "South Africa"
+   ],
+   "median_salary_usd": null
   },
   {
    "company": "RecruitGo",
@@ -1590,6 +1590,21 @@
     "Portugal"
    ],
    "median_salary_usd": null
+  },
+  {
+   "company": "Agilent Technologies",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/x0u3705sekzm5wnyb9r62ly1ihq6",
+   "example_titles": [
+    "Regional Quality Assurance Lead (Korea)",
+    "Software Test Manager – Automated Productivity Solutions (APS)"
+   ],
+   "where": [
+    "South Korea",
+    "Germany, United States"
+   ],
+   "median_salary_usd": 164000.0
   },
   {
    "company": "LivaNova",
@@ -2692,20 +2707,6 @@
     "Canada"
    ],
    "median_salary_usd": 64000.0
-  },
-  {
-   "company": "SQA Solution",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/d5dtcrvovtxjwhqg8upbtdvgn21z",
-   "example_titles": [
-    "QA Engineer",
-    "QA Engineering Manager"
-   ],
-   "where": [
-    "Ukraine"
-   ],
-   "median_salary_usd": null
   }
  ],
  "sources_errors": 0
