@@ -1,6 +1,6 @@
 # Direktoriju iesniegumi: qajobboard.com
 
-Sagatavots 2026-11-15. Iesniedz pats ar savu e-pastu. Kad iesniegts, atzīmē [x] un ieraksti datumu.
+Sagatavots 2026-11-15. JobSearchDB un SaaSHub lūdz, lai produktu iesniedz pats cilvēks, nevis AI. Tāpēc tos iesniedz Mārcis. Job Board Fast forma ir aizpildīta, bet atlicis nospiest Submit. FindaJobBoard: Mārcim jāizveido konts un jāapmaksā.
 
 | # | Direktorija | Cena | Ko saņem | Statuss |
 |---|---|---|---|---|
