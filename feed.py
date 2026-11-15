@@ -375,6 +375,11 @@ def norm_limits(limits, remote):
         parts = [str(x).strip() for x in limits if str(x).strip()]
     else:
         parts = [x.strip() for x in str(limits or "").split(",") if x.strip()]
+    alias = {"USA": "United States", "US": "United States", "U.S.": "United States", "United States of America": "United States",
+             "UK": "United Kingdom", "Great Britain": "United Kingdom", "The Netherlands": "NL", "Netherlands": "NL",
+             "Holland": "NL", "Russia": "Russian Federation"}
+    parts = [alias.get(x, x) for x in parts]
+    parts = ["EMEA" if re.search(r"\bCET\b|\bCEST\b", x) else x for x in parts]
     if not parts:
         return "Worldwide" if remote else ""
     if len(parts) < 5:
