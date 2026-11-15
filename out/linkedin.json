@@ -1,20 +1,20 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "posts": [
     {
       "time_utc": "06:00",
       "type": "remote_roundup",
-      "text": "🌍 New remote QA jobs today\n\n▪️ QA automation - Développeur.euse de tests automatisés – itera · Remote (Canada)\n▪️ QA Engineer (Malaysia-based) – Kinobi AI · Remote (Malaysia)\n▪️ Sr. QA Manager – Concept Plus · Remote (USA)\n▪️ Cashmere Lab Testing & Quality Leader – Quince · Remote (Italy)\n▪️ Quality Assurance Associate - Patient Access – United-Biosource-Corporation · Remote (USA)\n▪️ AT - Director of Training & Quality Assurance – Ancora Education · Remote (USA) · 75,000–90,000 USD/year\n\nAll remote QA, SDET and testing jobs:\nhttps://www.qajobboard.com/s/remote-jobs\n\n#QAJobs #SoftwareTesting #QualityAssurance #SDET #TestAutomation #RemoteJobs"
+      "text": "🌍 New remote QA jobs today\n\n▪️ SDET / QA Automation – Switch Software · Remote (UY)\n▪️ Test Engineer – Peraton · Remote (USA) · 66,000–106,000 USD/year\n▪️ Graphene Photonics Device Reliability Testing Engineer (f/m/d) – Black Semiconductor · Remote (Germany)\n▪️ Senior Test Automation Engineer (Temporary Position) – Netrist Solutions · Remote (USA)\n▪️ QA Engineer Intern (6 months) – shifttechnology · Remote (Worldwide)\n▪️ Penetration Tester - India – Cognisys · Remote (India) · 2,000,000–2,500,000 INR/year\n\nAll remote QA, SDET and testing jobs:\nhttps://www.qajobboard.com/s/remote-jobs\n\n#QAJobs #SoftwareTesting #QualityAssurance #SDET #TestAutomation #RemoteJobs"
     },
     {
       "time_utc": "10:30",
       "type": "job_of_the_day",
-      "text": "🔥 QA job of the day\n\nManager, Quality Assurance\n🏢 Hilton\n📍 Remote (USA)\n💰 77,500–100,000 USD/year\n\nApply here 👇\nhttps://www.qajobboard.com/jobs/manager-quality-assurance-a3b6aff8\n\nKnow someone who would fit? Tag them in the comments.\n\n#QAJobs #SoftwareTesting #QualityAssurance #SDET #TestAutomation"
+      "text": "🔥 QA job of the day\n\nTest Automation / QA Engineer – Journeyman\n🏢 Kearney Italia, Inc.\n📍 Remote (USA)\n💰 80,000–140,000 USD/year\n\nApply here 👇\nhttps://www.qajobboard.com/jobs/test-automation-qa-engineer-journeyman-a0c59747\n\nKnow someone who would fit? Tag them in the comments.\n\n#QAJobs #SoftwareTesting #QualityAssurance #SDET #TestAutomation"
     },
     {
       "time_utc": "15:30",
       "type": "theme",
-      "text": "📊 QA job market this week\n\n207 new QA and testing jobs on QA Job Board\n152 of them remote\n\nMost hiring:\n▪️ Bosch Group (9)\n▪️ Description Ciklum (8)\n▪️ TECDATA ENGINEERING (6)\n▪️ Testlio (5)\n▪️ Endava (5)\n\nMost wanted roles:\n▪️ QA Engineer (53)\n▪️ QA Automation Engineer (41)\n▪️ Senior QA Engineer (24)\n\nSee all: https://www.qajobboard.com/jobs\n\n#QAJobs #SoftwareTesting #QualityAssurance #SDET #TestAutomation"
+      "text": "💡 QA career tip: Your QA CV in 30 seconds\n\nRecruiters skim. Put your test stack in the top 3 lines: language, framework, CI tool. Example: \"Python, Playwright, GitHub Actions\". Then one line with a number: \"Cut regression time from 2 days to 3 hours\".\n\nWhat would you add? 👇\n\nNew QA jobs every day: https://www.qajobboard.com/jobs\n\n#QAJobs #SoftwareTesting #QualityAssurance #SDET #TestAutomation #CareerTips"
     }
   ]
 }
