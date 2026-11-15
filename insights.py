@@ -44,7 +44,7 @@ ALIAS = {"USA": "United States", "UK": "United Kingdom", "Czech": "Czechia"}
 
 
 def company_name(n):
-    n = n.strip()
+    n = re.sub(r"^(Description|About|Company)[:\s]+", "", n.strip(), flags=re.I)
     for _ in range(2):
         n = re.sub(r"[,\s]+(UK\s+)?(Limited|Ltd\.?|Inc\.?|LLC|GmbH|Pvt\.?|Pty\.?|Corporation|Corp\.?|Interactive)$", "", n, flags=re.I)
     return n.strip(" ,")

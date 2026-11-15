@@ -7,7 +7,7 @@ Noteikumi katram rakstam:
 - Neviens skaitlis nav izdomāts. Ja datu nav, raksti vispārīgi un nenorādi procentus.
 - Kad raksts publicēts, atzīmē tēmu kā [x] un pievieno datumu un slug.
 
-Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
+Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas). Pirmdienās, trešdienās un ceturtdienās vispirms ņem tēmu no saraksta „Tēmas, kas ved tieši uz darbu lapām”:
 - P: Darba tirgus dati (algas, valsts, loma)
 - O: Karjeras ceļvedis (kā kļūt par…, intervijas)
 - T: Rīki un prasmes (no aprakstu datiem)
@@ -18,6 +18,23 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
 
 ## Publicētās lapas, kas jāatjauno
 - /best-software-companies-to-work-for — katru dienu no out/companies_page.json (Jobboardly custom page 6988)
+
+## Tēmas, kas ved tieši uz darbu lapām (prioritāte)
+Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attiecīgo /s/ lapu.
+- [ ] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright)
+- [ ] Remote SDET Jobs: Companies Hiring Software Engineers in Test (→ /s/software-development-engineer-in-test-sdet-jobs)
+- [ ] QA Jobs for Freshers: Entry-Level Testing Roles You Can Apply For Now (→ /s/junior-qa-engineer-jobs)
+- [ ] Manual QA Tester Jobs: Where They Still Hire (→ /s/qa-manual-tester-jobs)
+- [ ] QA Jobs in Poland: Remote and Hybrid Roles (→ /s/poland-jobs)
+- [ ] QA Jobs in Portugal and Spain for English Speakers (→ /s/portugal-jobs, /s/spain-jobs)
+- [ ] QA Jobs in Canada: Remote Roles and Salaries (→ /s/canada-jobs)
+- [ ] QA Jobs in the Baltics: Latvia, Lithuania, Estonia (→ /s/latvia-jobs …)
+- [ ] Test Manager Jobs: Salaries and Remote Openings (→ /s/test-manager-jobs)
+- [ ] QA Lead Jobs: What Companies Expect From a QA Lead (→ /s/qa-lead-jobs)
+- [ ] Cypress Jobs in 2026 (→ /jobs?q=cypress)
+- [ ] Salesforce QA Jobs: Skills and Pay (→ /jobs?q=salesforce)
+- [ ] Game Tester and Game QA Jobs (→ /jobs?q=game)
+- [ ] QA Jobs at Startups vs Big Tech
 
 ## Tēmas
 - [x] QA Engineer Salary in 2026: What QA Job Posts Actually Pay — 2026-11-05, /blog/qa-engineer-salary-2026
