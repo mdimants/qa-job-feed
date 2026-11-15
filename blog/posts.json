@@ -1,43 +1,47 @@
 [
  {
   "slug": "qa-engineer-salary-2026",
-  "title": "QA Engineer Salary in 2026: What 200+ Job Posts Actually Pay",
+  "title": "QA Engineer Salary in 2026: What 1,000+ QA Job Posts Actually Pay",
   "excerpt": "We analysed every QA job post with a published salary. Median pay, ranges by seniority and role, and what pushes a QA salary up.",
   "tags": "salary, qa engineer, sdet, career",
-  "meta_title": "QA Engineer Salary 2026: Real Pay From 200+ Job Posts",
-  "meta_description": "Median QA engineer salary is $110k based on 203 job posts with published pay. See QA, SDET, automation and test manager salaries by seniority (Nov 2026).",
+  "meta_title": "QA Engineer Salary 2026: $110k Median (Real Job Post Data)",
+  "meta_description": "QA engineer salaries in 2026 from real job posts: $110k median, SDET $121k, junior $84k. Pay by seniority and role, updated November 2026.",
   "published": "2026-11-05",
-  "jb_id": 3009
+  "jb_id": 3009,
+  "updated": "2026-11-15"
  },
  {
   "slug": "most-in-demand-qa-automation-tools-2026",
   "title": "The Most In-Demand QA Automation Tools in 2026 (From 1,146 Job Posts)",
   "excerpt": "Selenium, Playwright or Cypress? We counted which testing tools and languages employers ask for in real QA job descriptions.",
   "tags": "playwright, selenium, cypress, test automation, skills",
-  "meta_title": "Most In-Demand QA Automation Tools 2026 (Job Post Data)",
-  "meta_description": "Selenium 29%, Playwright 25%, Cypress 18%: which QA automation tools and languages employers ask for in 2026, based on 1,146 QA job descriptions.",
+  "meta_title": "Selenium vs Playwright vs Cypress: Most In-Demand QA Tools 2026",
+  "meta_description": "Selenium 31%, Playwright 28%, Cypress 19%: which QA automation tools and languages employers ask for in 2026, from 1,000+ real QA job posts.",
   "published": "2026-11-05",
-  "jb_id": 3010
+  "jb_id": 3010,
+  "updated": "2026-11-15"
  },
  {
   "slug": "how-to-get-your-first-qa-job-2026",
   "title": "How to Get Your First QA Job in 2026: A Junior QA Roadmap",
   "excerpt": "Only 4% of QA jobs are junior. Here is the skills order, portfolio and job search plan that gets beginners hired.",
   "tags": "junior qa, career, software tester, beginners",
-  "meta_title": "How to Get Your First QA Job in 2026 (Junior QA Roadmap)",
-  "meta_description": "A step-by-step plan to land your first QA or software tester job in 2026: skills to learn, portfolio projects, where junior QA jobs are and what they pay.",
+  "meta_title": "How to Get a QA Job With No Experience (2026 Roadmap)",
+  "meta_description": "Only 4% of QA jobs are junior. The skills, portfolio and job search plan that get beginners hired as QA testers in 2026, with real salary data.",
   "published": "2026-11-05",
-  "jb_id": 3011
+  "jb_id": 3011,
+  "updated": "2026-11-15"
  },
  {
   "slug": "remote-qa-jobs-2026-who-is-hiring",
   "title": "Remote QA Jobs in 2026: Who's Hiring and Where You Can Actually Work From",
   "excerpt": "Only 1.3% of remote QA jobs accept candidates from anywhere. Where remote QA jobs are open, who is hiring and how to find one you can actually get.",
   "tags": "remote jobs, qa engineer, job search, career",
-  "meta_title": "Remote QA Jobs 2026: Who's Hiring and Where You Can Work",
-  "meta_description": "Only 14 of 1,054 remote QA jobs accept candidates from anywhere. See which countries and companies hire remote QA engineers in 2026, with salary data.",
+  "meta_title": "Remote QA Jobs 2026: 650 Companies Hiring Testers Now",
+  "meta_description": "946 remote QA jobs from 650 companies: who is hiring remote QA engineers and testers, which countries they hire in and what they pay (Nov 2026).",
   "published": "2026-11-05",
-  "jb_id": 3012
+  "jb_id": 3012,
+  "updated": "2026-11-15"
  },
  {
   "slug": "how-to-hire-a-qa-engineer-2026",
@@ -47,7 +51,8 @@
   "meta_title": "How to Hire a QA Engineer in 2026 (Startup Guide)",
   "meta_description": "Hiring your first QA engineer? Salary ranges, in-demand tools and interview steps based on 1,199 open QA jobs from 769 companies (Nov 2026).",
   "published": "2026-11-06",
-  "jb_id": 3015
+  "jb_id": 3015,
+  "updated": "2026-11-15"
  },
  {
   "slug": "qa-automation-engineer-interview-questions",
@@ -57,6 +62,7 @@
   "meta_title": "QA Automation Interview Questions & Answers (2026)",
   "meta_description": "13 QA automation interview questions with answers, based on 1,081 open QA jobs: Playwright vs Selenium, flaky tests, API testing, CI/CD and LLM testing.",
   "published": "2026-11-15",
-  "jb_id": 3076
+  "jb_id": 3076,
+  "updated": "2026-11-15"
  }
 ]
