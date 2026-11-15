@@ -27,7 +27,7 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
 - [ ] SDET vs QA Engineer: Differences in Skills, Salary and Demand
 - [ ] Playwright vs Selenium vs Cypress: What Employers Ask For in 2026
 - [ ] Manual QA Tester Jobs in 2026: Is Manual Testing Still Hiring?
-- [ ] QA Automation Engineer Interview Questions (with Answers)
+- [x] QA Automation Engineer Interview Questions (with Answers) — 2026-11-15, /blog/qa-automation-engineer-interview-questions
 - [ ] How to Write a QA Engineer Resume That Gets Interviews
 - [ ] QA Lead vs Test Manager: Responsibilities and Pay
 - [ ] Performance Testing Jobs: k6, JMeter and Gatling Demand

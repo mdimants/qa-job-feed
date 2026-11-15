@@ -43,5 +43,14 @@
   "meta_title": "How to Hire a QA Engineer in 2026 (Startup Guide)",
   "meta_description": "Hiring your first QA engineer? Salary ranges, in-demand tools and interview steps based on 1,199 open QA jobs from 769 companies (Nov 2026).",
   "published": "2026-11-06"
+ },
+ {
+  "slug": "qa-automation-engineer-interview-questions",
+  "title": "QA Automation Engineer Interview Questions (with Answers) for 2026",
+  "excerpt": "13 QA automation interview questions with answers, chosen from what 239 automation and SDET job posts ask for: Playwright, Selenium, API testing, CI/CD and LLM testing.",
+  "tags": "interview, qa automation, sdet, playwright, selenium",
+  "meta_title": "QA Automation Interview Questions & Answers (2026)",
+  "meta_description": "13 QA automation interview questions with answers, based on 1,081 open QA jobs: Playwright vs Selenium, flaky tests, API testing, CI/CD and LLM testing.",
+  "published": "2026-11-15"
  }
 ]

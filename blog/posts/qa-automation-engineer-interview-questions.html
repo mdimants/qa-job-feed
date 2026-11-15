@@ -1,0 +1,100 @@
+<p><em>Based on 1,081 open QA jobs on QA Job Board, November 2026.</em></p>
+
+<p>QA automation interviews in 2026 focus on four things: one browser automation framework (usually Playwright or Selenium), API testing, CI/CD, and how you design a test suite that stays reliable. Below are the questions that come up most often, with short answers you can adapt. We picked the topics by looking at what automation job posts on QA Job Board actually ask for, so you can spend your preparation time where employers spend their interview time.</p>
+
+<h2>What automation job posts ask for</h2>
+<p>Across all 1,081 QA jobs we track, Selenium is mentioned in <strong>30.3%</strong> of job descriptions and Playwright in <strong>26.9%</strong>. SQL appears in 24.9%, Postman in 21.8% and Cypress in 18.9%. When we narrow the data to the 239 QA Automation Engineer and SDET posts with a full description, the picture shifts:</p>
+
+<table>
+<tr><th>Skill</th><th>Share of automation and SDET posts</th></tr>
+<tr><td>Playwright</td><td>52.7%</td></tr>
+<tr><td>Selenium</td><td>44.4%</td></tr>
+<tr><td>Cypress</td><td>31.0%</td></tr>
+<tr><td>Postman</td><td>26.8%</td></tr>
+<tr><td>GitHub Actions</td><td>26.4%</td></tr>
+<tr><td>SQL</td><td>25.5%</td></tr>
+<tr><td>Jenkins</td><td>24.7%</td></tr>
+<tr><td>Docker</td><td>23.4%</td></tr>
+<tr><td>AI / LLM testing</td><td>17.2%</td></tr>
+</table>
+
+<p>For programming languages, these posts mention Python (40.2%), JavaScript (39.3%), Java (36.0%) and TypeScript (35.6%) at almost the same rate. Expect the interviewer to let you pick a language, but expect them to go deep in the one you pick. For the full tool breakdown, see <a href="https://www.qajobboard.com/blog/most-in-demand-qa-automation-tools-2026">the most in-demand QA automation tools in 2026</a>.</p>
+
+<h2>Framework questions</h2>
+
+<h3>1. Why would you choose Playwright over Selenium (or the other way round)?</h3>
+<p>A good answer compares trade-offs instead of picking a favourite. Playwright has auto-waiting, built-in parallel runs, tracing and network interception, and one API for Chromium, Firefox and WebKit. Selenium has the widest language and browser support, a long track record and a large existing code base in many companies. If the team already has 2,000 Selenium tests that work, rewriting them is rarely the best use of time. For a new project with a TypeScript or Python team, Playwright is usually faster to set up and less flaky.</p>
+
+<h3>2. How do you handle waits and synchronisation?</h3>
+<p>Never use fixed sleeps. Wait for a condition: an element is visible, a network request finished, a URL changed. In Selenium this means explicit waits with WebDriverWait; in Playwright, actions and web-first assertions wait automatically. Mention that most flaky tests come from timing problems, so you treat a new sleep in a pull request as a bug.</p>
+
+<h3>3. How do you choose locators?</h3>
+<p>Prefer locators that reflect what the user sees and that developers will not change by accident: roles and accessible names, labels, or dedicated data-testid attributes. Avoid long XPath expressions and CSS chains tied to layout. A strong answer adds that you agree with developers on test IDs, so locators are part of the code contract.</p>
+
+<h3>4. What is the Page Object Model, and when does it hurt?</h3>
+<p>Page objects put locators and page actions in one class, so tests read like user steps and a UI change is fixed in one place. It hurts when page objects grow into huge classes with assertions inside them, or when every small component gets its own deep inheritance tree. Keep page objects thin, keep assertions in tests, and use component objects for repeated widgets.</p>
+
+<h2>Test design questions</h2>
+
+<h3>5. Which tests would you automate first?</h3>
+<p>Start with what is run often, breaks often, or costs money when it breaks: login, checkout, sign-up, core API flows. Do not automate a feature that changes every week or a test that a human runs once a year. Mention the test pyramid: most checks at unit and API level, fewer end-to-end UI tests on the critical paths.</p>
+
+<h3>6. A test passes locally and fails in CI. What do you do?</h3>
+<p>Walk through it step by step. Read the failure and the trace or screenshot. Check differences between environments: browser version, screen size, test data, time zone, parallel runs sharing the same user. Run the test in CI several times to see whether it is flaky or always fails. Fix the cause, not the symptom; retries hide problems and should be a short-term measure with a ticket.</p>
+
+<h3>7. How do you deal with flaky tests?</h3>
+<p>Measure first: track which tests fail without a code change. Quarantine the worst ones so they do not block releases, then fix them by priority. Common causes are timing, shared test data, order dependence and unstable third-party services. Interviewers want to hear that you treat flakiness as a team metric, not as background noise.</p>
+
+<h3>8. How do you manage test data?</h3>
+<p>Each test should create the data it needs, ideally through an API or database seed rather than the UI, and clean up after itself or use unique values. Shared accounts between parallel tests are a classic source of random failures. SQL shows up in about a quarter of automation posts, so expect a follow-up like "write a query that finds orders without a payment".</p>
+
+<h2>API testing questions</h2>
+
+<h3>9. What do you check in an API test?</h3>
+<p>Status code, response body and schema, headers, response time, and side effects (was the record really created?). Then the negative cases: missing fields, wrong types, no auth token, an expired token, a user without permission. Postman appears in 26.8% of automation and SDET posts, and REST Assured in 15.5%, so be ready to show either a Postman collection with tests or code that calls an API.</p>
+
+<h3>10. How do you test a service that depends on another service?</h3>
+<p>Use mocks or stubs for the dependency in most tests so they are fast and stable, and keep a smaller set of integration tests against the real service. Contract testing is a good thing to mention if the team has many microservices.</p>
+
+<h2>CI/CD and tooling questions</h2>
+
+<h3>11. How would you run tests in a CI pipeline?</h3>
+<p>Describe a concrete setup: tests run on every pull request, a fast smoke suite blocks the merge, and the full regression runs nightly or before release. Tests run in parallel inside Docker containers, and reports, screenshots and traces are saved as build artifacts. GitHub Actions is named in 26.4% of automation and SDET posts and Jenkins in 24.7%, so know at least one of them well enough to write a basic pipeline file.</p>
+
+<h3>12. How do you keep a large suite fast?</h3>
+<p>Run tests in parallel, move checks down to the API level where possible, log in through an API instead of the UI, reuse authenticated state, and delete tests that no longer protect anything. A suite that takes two hours will be skipped; a suite that takes ten minutes will be trusted.</p>
+
+<h2>A newer topic: testing AI features</h2>
+
+<h3>13. How would you test a feature that uses an LLM?</h3>
+<p>AI or LLM testing appears in 12.0% of all QA job descriptions and in 17.2% of automation and SDET posts. You cannot assert an exact answer, so you test properties: the response follows the required format, stays on topic, refuses unsafe requests, does not leak data, and stays within latency and cost limits. Use a fixed set of evaluation prompts, track the pass rate over time, and review a sample by hand. Mention that you also test the normal software around the model: inputs, error handling, timeouts and fallbacks.</p>
+
+
+<h2>Behavioural questions</h2>
+<p>Almost every automation interview also includes questions like these. Prepare one short, specific story for each:</p>
+<ul>
+<li>"Tell me about a bug you found that others missed."</li>
+<li>"Tell me about a time you pushed back on a release."</li>
+<li>"How did you convince developers to fix flaky tests or add test IDs?"</li>
+<li>"Describe a framework or pipeline you built. What would you do differently?"</li>
+</ul>
+<p>Use real numbers where you have them: suite run time before and after, number of tests, how many bugs the suite caught in a quarter.</p>
+
+<h2>What the role pays</h2>
+<p>Among QA Automation Engineer posts that publish a salary, the median is <strong>$115,000 per year</strong> (n=23, USD equivalent). For SDET roles the median is $121,000 (n=18). Both samples are small and mostly US-based, so treat them as a rough guide. Only 17.8% of all QA posts we track include pay at all. The <a href="https://www.qajobboard.com/blog/qa-engineer-salary-2026">QA engineer salary report</a> has the wider picture.</p>
+
+<h2>How to prepare in one week</h2>
+<ol>
+<li>Read the job post and list every tool it names. Prepare one concrete example for each.</li>
+<li>Build or polish one small public project: a few UI tests in Playwright or Selenium, a few API tests, and a GitHub Actions workflow that runs them.</li>
+<li>Practise explaining a flaky test you fixed, step by step.</li>
+<li>Write three SQL queries with JOIN and GROUP BY without looking anything up.</li>
+<li>Prepare two questions for the interviewer, for example how they measure test reliability and who owns the test suite.</li>
+</ol>
+
+<p>You can browse current <a href="https://www.qajobboard.com/s/qa-automation-engineer-jobs">QA Automation Engineer jobs</a> and compare what each company asks for before your interview. Almost all of them (229 of 246 automation and SDET posts in our snapshot) are remote.</p>
+
+<h2>Methodology</h2>
+<p>Overall figures come from 1,081 QA job posts on QA Job Board collected on 14 November 2026. The automation-specific shares were calculated in Python from the same day's raw job data: we took the 239 posts classified as QA Automation Engineer or SDET that had a full description and searched each description for the same tool and language keywords we use across the site. Salaries are converted to annual USD at approximate rates and only cover posts that publish pay.</p>
+
+<p><strong>Hiring QA engineers?</strong> Post a QA job on <a href="https://www.qajobboard.com/pricing">QA Job Board</a> and reach testers who are actively looking.</p>
