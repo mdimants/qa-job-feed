@@ -44,7 +44,7 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas):
 - [ ] Testing AI and LLM Features: The New QA Skill
 - [x] How to Hire a QA Engineer in 2026 (Guide for Startups) — 2026-11-06, /blog/how-to-hire-a-qa-engineer-2026
 - [ ] How Much Does a QA Engineer Cost? Salary Benchmarks for Employers
-- [ ] Where to Post QA Jobs: Job Boards for Testers Compared
+- [x] Best QA Job Boards in 2026 (job seekers + employers) — 2026-11-15, /blog/best-qa-job-boards-2026
 - [ ] QA Portfolio Projects That Get You Hired
 - [ ] ISTQB in 2026: Is QA Certification Still Worth It?
 - [ ] Penetration Tester Jobs: Skills and Salary
