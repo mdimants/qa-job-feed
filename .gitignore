@@ -1,3 +1,12 @@
 __pycache__/
 .DS_Store
 out/raw_jobs.json
+
+# Outreach kontakti tikai lokāli
+outreach/contacted.csv
+outreach/*.local.*
+# Video
+video/out/
+video/daily/node_modules/
+video/daily/.hyperframes/
+video/daily/renders/
