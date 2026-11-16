@@ -108,7 +108,13 @@ def card(i, j, start):
       </div>'''
 
 
-def build(jobs, total_jobs, day):
+def build(jobs, total_jobs, day, vertical=False):
+    H = 1920 if vertical else 1080
+    res = "" if vertical else ' data-resolution="square"'
+    # 9:16: teksts tikai joslā 168–1330 px un ne zem labās pogu joslas (Reels/TikTok)
+    vcss = (".brand {{ top: 200px; left: 80px; }} .scene, .job {{ top: 280px; bottom: 590px; padding: 0 150px 0 80px; }} "
+            ".jin {{ padding: 48px; }} .hook {{ font-size: 104px; }} .jt {{ font-size: 58px; }}") if vertical else ""
+    vcss = vcss.replace("{{", "{").replace("}}", "}")
     datestr = dt.date.fromisoformat(day).strftime("%B %-d")
     cards = "".join(card(i + 1, j, 2.5 + i * 2) for i, j in enumerate(jobs))
     tweens = "\n".join(
@@ -116,15 +122,15 @@ def build(jobs, total_jobs, day):
         f'tl.to("#jin{i+1}", {{y: -40, opacity: 0, duration: 0.25, ease: "power2.in"}}, {2.5 + i*2 + 1.72});'
         for i in range(len(jobs)))
     return f'''<!doctype html>
-<html lang="en" data-resolution="square">
+<html lang="en"{res}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1080, height=1080" />
+    <meta name="viewport" content="width=1080, height={H}" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
     <style>
       :root {{ --ground: #0b1324; --card: #131f38; --ink: #ffffff; --muted: #9fb0cc; --accent: #22c55e; --font-display: Inter; }}
       * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-      html, body {{ margin: 0; width: 1080px; height: 1080px; overflow: hidden; background: var(--ground); }}
+      html, body {{ margin: 0; width: 1080px; height: {H}px; overflow: hidden; background: var(--ground); }}
       #root {{ width: 100%; height: 100%; position: relative; font-family: var(--font-display); color: var(--ink); }}
       .brand {{ position: absolute; left: 96px; top: 84px; font-size: 34px; font-weight: 700; letter-spacing: -0.01em; }}
       .brand b {{ color: var(--accent); }}
@@ -140,10 +146,11 @@ def build(jobs, total_jobs, day):
       .wh {{ font-size: 36px; color: var(--muted); margin-top: 14px; }}
       .sal {{ display: inline-block; margin-top: 30px; font-size: 40px; font-weight: 700; color: #04140a; background: var(--accent); padding: 10px 24px; border-radius: 14px; }}
       .url {{ font-size: 76px; font-weight: 900; color: var(--accent); letter-spacing: -0.02em; }}
+      {vcss}
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="15" data-width="1080" data-height="1080">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="15" data-width="1080" data-height="{H}">
       <div id="brand" class="clip brand" data-start="0" data-duration="15" data-track-index="3">QA Job <b>Board</b></div>
       <div id="intro" class="clip scene" data-start="0" data-duration="2.5" data-track-index="0">
         <div class="kicker" id="kick">{html.escape(datestr)} · New QA jobs</div>
@@ -192,19 +199,20 @@ def main():
     if len(chosen) < 5:
         sys.exit(f"Par maz jaunu darbu: {len(chosen)}")
     os.makedirs(OUT, exist_ok=True)
-    with open(os.path.join(PROJ, "index.html"), "w") as f:
-        f.write(build(chosen, len(jobs), day))
     txt = os.path.join(OUT, f"{day}.txt")
     with open(txt, "w") as f:
         f.write(caption(chosen, day))
     print("Teksts:", txt)
-    if "--no-render" in sys.argv:
-        return
-    mp4 = os.path.join(OUT, f"{day}.mp4")
-    subprocess.run(["node", PLUGIN_CLI, "check", "--json"], cwd=PROJ, check=False)
-    subprocess.run(["node", PLUGIN_CLI, "render", "--output", mp4], cwd=PROJ, check=True)
-    print("Video:", mp4)
-
+    # kvadrāts LinkedIn, vertikāls (9:16) Facebook/Instagram Reels
+    for vertical, name in ((False, f"{day}.mp4"), (True, f"{day}-9x16.mp4")):
+        with open(os.path.join(PROJ, "index.html"), "w") as f:
+            f.write(build(chosen, len(jobs), day, vertical))
+        if "--no-render" in sys.argv:
+            continue
+        mp4 = os.path.join(OUT, name)
+        subprocess.run(["node", PLUGIN_CLI, "check", "--json"], cwd=PROJ, check=False)
+        subprocess.run(["node", PLUGIN_CLI, "render", "--output", mp4], cwd=PROJ, check=True)
+        print("Video:", mp4)
 
 if __name__ == "__main__":
     main()
