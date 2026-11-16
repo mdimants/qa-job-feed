@@ -21,7 +21,7 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas). Pirmdienās, tr
 
 ## Tēmas, kas ved tieši uz darbu lapām (prioritāte)
 Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attiecīgo /s/ lapu.
-- [ ] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright)
+- [x] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright) — 2026-11-16, /blog/playwright-jobs-2026
 - [ ] Remote SDET Jobs: Companies Hiring Software Engineers in Test (→ /s/software-development-engineer-in-test-sdet-jobs)
 - [ ] QA Jobs for Freshers: Entry-Level Testing Roles You Can Apply For Now (→ /s/junior-qa-engineer-jobs)
 - [ ] Manual QA Tester Jobs: Where They Still Hire (→ /s/qa-manual-tester-jobs)
