@@ -8,11 +8,14 @@ kas publicēts pēdējās 10 dienās, izlaiž lielos uzņēmumus un jau uzrunāt
 Palaišana: python3 outreach/candidates.py [skaits]
 """
 import csv
+import http.client
 import datetime as dt
 import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from collections import Counter, defaultdict
 from urllib.parse import urlparse
@@ -39,10 +42,22 @@ def contacted():
         return {r["company"].strip().lower() for r in csv.DictReader(f)}
 
 
+def load_jobs():
+    """jobs.json ir ~25 MB un dažreiz atgriež 502 vai pārtrūkst: mēģina vairākas reizes."""
+    req = urllib.request.Request("https://www.qajobboard.com/jobs.json", headers={"User-Agent": "qa-feed-outreach"})
+    for attempt in range(4):
+        try:
+            return json.loads(urllib.request.urlopen(req, timeout=180).read())
+        except (urllib.error.URLError, http.client.IncompleteRead, TimeoutError) as e:
+            if attempt == 3:
+                raise
+            print(f"# jobs.json kļūda ({e}), mēģinu vēlreiz", file=sys.stderr)
+            time.sleep(15 * (attempt + 1))
+
+
 def main():
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 25
-    req = urllib.request.Request("https://www.qajobboard.com/jobs.json", headers={"User-Agent": "qa-feed-outreach"})
-    jobs = json.load(urllib.request.urlopen(req, timeout=60))
+    jobs = load_jobs()
     newest = max(j["published_at"][:10] for j in jobs)
     cutoff = (dt.date.fromisoformat(newest) - dt.timedelta(days=10)).isoformat()
     per_company = Counter(j["company"]["name"] for j in jobs if j.get("company"))
