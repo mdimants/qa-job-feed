@@ -84,5 +84,14 @@
   "meta_description": "Playwright is in 26.1% of QA job posts and 52.6% of automation roles. See who hires Playwright testers, required skills, remote share and salaries.",
   "published": "2026-11-16",
   "jb_id": 3081
+ },
+ {
+  "slug": "playwright-vs-selenium-vs-cypress-2026",
+  "title": "Playwright vs Selenium vs Cypress: What Employers Ask For in 2026",
+  "excerpt": "Selenium is in 30.4% of QA job posts, Playwright 27.0%, Cypress 18.7%. In automation and SDET roles Playwright leads. Data on roles, languages and pay.",
+  "tags": "playwright, selenium, cypress, test automation, qa jobs",
+  "meta_title": "Playwright vs Selenium vs Cypress: Job Demand 2026",
+  "meta_description": "Selenium is in 30.4% of QA job posts, Playwright 27.0%, Cypress 18.7%. See which framework leads in automation roles, languages and salaries.",
+  "published": "2026-11-17"
  }
 ]
