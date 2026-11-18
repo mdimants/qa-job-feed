@@ -14,3 +14,6 @@ video/daily/renders/
 # Lokāli darba saraksti
 *.local.*
 outreach/sagatavoti-*.txt
+video/weekly/node_modules/
+video/weekly/.hyperframes/
+video/weekly/renders/
