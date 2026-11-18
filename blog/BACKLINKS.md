@@ -20,7 +20,7 @@ Visur vajadzīgs Mārča konts, jo tajos ir jāreģistrējas. Teksti un apraksti
 | 4 | Jobboardly showcase / klientu galerija | Palūgt Jobboardly iekļaut qajobboard.com | [ ] |
 | 5 | Product Hunt | Palaist „QA Job Board: QA-only jobs with salary & remote location” | [ ] |
 | 6 | SaaSHub, AlternativeTo (kā alternatīva Ministry of Testing jobs / Dice) | Pievienot produktu | [ ] |
-| 7 | GitHub „awesome” saraksti (awesome-testing, awesome-qa, awesome-remote-job) | PR, kas pievieno QA Job Board sadaļā Jobs | [ ] |
+| 7 | GitHub „awesome” saraksti (awesome-testing, awesome-qa, awesome-remote-job) | PR, kas pievieno QA Job Board sadaļā Jobs | awesome-remote-job PR #1256 atvērts 2026-11-18 |
 | 8 | LinkedIn lapa, X profils | Saite uz vietni ir (sameAs), pārbaudīt | [x] |
 
 ## 2. Saturs, kas pats piesaista saites (katru mēnesi)
