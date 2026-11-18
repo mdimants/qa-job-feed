@@ -1,0 +1,14 @@
+The median advertised SDET salary is $130,000. That is $20,000 above the QA market median.
+
+We looked at the SDET jobs among 996 open QA jobs on QA Job Board:
+
+- 91.5% of SDET posts are remote, but only 5 of 59 have no location limit. The US, India and Canada lead.
+- 54% of SDET titles are Senior, Lead, Staff or Principal. Only 2 posts are clearly entry-level.
+- GitHub Actions appears in 53% of SDET posts, compared with 10.4% of all QA posts.
+- Python (58%) and TypeScript (56%) are the most requested languages. Playwright leads the frameworks at 56%.
+
+If you work as an SDET, what took up more of your time this year: writing tests or keeping the pipeline running?
+
+Full article: https://www.qajobboard.com/blog/remote-sdet-jobs-2026
+
+#QA #SoftwareTesting #SDET #TestAutomation #RemoteJobs
