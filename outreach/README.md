@@ -6,6 +6,16 @@ Piedāvājums: 50% atlaide pirmajam sludinājumam ar kodu **QAJOBBOARD** (Jobboa
 - Standard: $99 → $49.50 (30 dienas).
 - Featured: $199 → $99.50 (piesprausts augšā, iekļauts darbu e-pastā, publicēts LinkedIn).
 
+## Kandidātu grupas (`candidates.py`)
+
+| Komanda | Kas | Piedāvājums |
+|---|---|---|
+| `python3 outreach/candidates.py 30` | **A:** uzņēmumi ar 1–6 QA darbiem pie mums | viens sludinājums ar QAJOBBOARD −50% |
+| `python3 outreach/candidates.py --group b 30` | **B:** 7+ QA darbi (aģentūras, outsourcing, testēšanas uzņēmumi); `agency` = nosaukumā recruit/staffing/consult u. c. | vairāku sludinājumu paka (tikai pēc Mārča lēmuma par cenu), citādi −50% kods |
+| `python3 outreach/candidates.py --group paid 30` | **Maksas:** nesen samaksāti QA sludinājumi We Work Remotely (no ~$299); `company_site` palīdz atrast e-pastu | „tu jau maksā par QA sludinājumu, pie mums auditorija ir tikai testētāji” |
+
+Visas grupas izlaiž lielos uzņēmumus (BIG) un jau uzrunātos (contacted.csv). B un maksas grupā rekrūtera vārdu var meklēt LinkedIn sludinājuma sadaļā „Meet the hiring team”; e-pastus neuzmin.
+
 ## Process (katru darba dienu)
 1. `python3 outreach/candidates.py 30` atlasa uzņēmumus ar svaigu programmatūras QA darbu mūsu vietnē. Tiek izlaisti lielie uzņēmumi un jau uzrunātie.
 2. Katram uzņēmumam atrod **publiski norādītu** darba e-pastu:
