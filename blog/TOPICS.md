@@ -20,6 +20,14 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas). Pirmdienās, tr
 - /best-software-companies-to-work-for — katru dienu no out/companies_page.json (Jobboardly custom page 6988)
 
 ## Tēmas, kas ved tieši uz darbu lapām (prioritāte)
+Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem, bet klikšķu maz. Šīs tēmas ņem PIRMĀS, augšējās vispirms. Katrā rakstā saite uz attiecīgo /s/ lapu (tām tagad ir savs virsraksts un ievads) un uz 2 citām /s/ lapām.
+- [ ] QA Jobs in Germany: Remote and On-site Software Testing Roles (→ /s/germany-jobs; Google: 257 parādīšanās, poz. 13,8)
+- [ ] Junior QA Engineer Jobs in Europe: Entry-Level Testing Roles (→ /s/junior-qa-engineer-jobs; vaicājums „junior qa engineer europe jobs hiring”)
+- [ ] QA Jobs in Poland (→ /s/poland-jobs; 110 parādīšanās)
+- [ ] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu)
+- [ ] Remote QA Jobs Worldwide: Where to Find Them in 2026 (→ /s/remote-jobs; „remote qa jobs” poz. 17,6)
+- [ ] QA Jobs in Romania (→ /s/romania-jobs) un QA Jobs in Austria (→ /s/austria-jobs)
+- [ ] Software Testing Jobs: Manual, Automation and SDET (→ /s/software-tester-jobs; poz. 20,7)
 Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attiecīgo /s/ lapu.
 - [x] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright) — 2026-11-16, /blog/playwright-jobs-2026
 - [x] Remote SDET Jobs: Companies Hiring Software Engineers in Test (→ /s/software-development-engineer-in-test-sdet-jobs) — 2026-11-18, /blog/remote-sdet-jobs-2026
