@@ -1,0 +1,15 @@
+Only 17% of QA jobs in Germany are fully remote. We looked at all 141 open roles from 96 companies.
+
+What stood out:
+- 38% of descriptions ask for German language skills.
+- ISTQB is mentioned in 36% of listings, far more than in other markets.
+- Software Tester (32%) and Test Manager (25%) are the biggest role groups.
+- Only 5% of German listings publish a salary.
+
+If you are looking for a QA job in Germany: get ISTQB Foundation, state your German level clearly, and show one small automation project.
+
+Testers in Germany: is ISTQB really required in your interviews, or just nice to have?
+
+Full article: https://www.qajobboard.com/blog/qa-jobs-in-germany-2026
+
+#QA #SoftwareTesting #ISTQB #TestAutomation #Germany
