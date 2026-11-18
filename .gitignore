@@ -10,3 +10,7 @@ video/out/
 video/daily/node_modules/
 video/daily/.hyperframes/
 video/daily/renders/
+
+# Lokāli darba saraksti
+*.local.*
+outreach/sagatavoti-*.txt
