@@ -22,8 +22,8 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas). Pirmdienās, tr
 ## Tēmas, kas ved tieši uz darbu lapām (prioritāte)
 Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem, bet klikšķu maz. Šīs tēmas ņem PIRMĀS, augšējās vispirms. Katrā rakstā saite uz attiecīgo /s/ lapu (tām tagad ir savs virsraksts un ievads) un uz 2 citām /s/ lapām.
 - [x] QA Jobs in Germany: Remote and On-site Software Testing Roles (→ /s/germany-jobs) — 2026-11-18, /blog/qa-jobs-in-germany-2026
-- [ ] Junior QA Engineer Jobs in Europe: Entry-Level Testing Roles (→ /s/junior-qa-engineer-jobs; vaicājums „junior qa engineer europe jobs hiring”)
-- [ ] QA Jobs in Poland (→ /s/poland-jobs; 110 parādīšanās)
+- [ ] Junior QA Engineer Jobs in Europe: Entry-Level Testing Roles (→ /s/junior-qa-engineer-jobs; vaicājums „junior qa engineer europe jobs hiring”) — 2026-11-18 izlaists: tikai ~7 junior darbi Eiropā (<15)
+- [x] QA Jobs in Poland (→ /s/poland-jobs; 110 parādīšanās) — 2026-11-18, /blog/qa-jobs-in-poland-2026
 - [ ] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu)
 - [ ] Remote QA Jobs Worldwide: Where to Find Them in 2026 (→ /s/remote-jobs; „remote qa jobs” poz. 17,6)
 - [ ] QA Jobs in Romania (→ /s/romania-jobs) un QA Jobs in Austria (→ /s/austria-jobs)
@@ -33,7 +33,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] Remote SDET Jobs: Companies Hiring Software Engineers in Test (→ /s/software-development-engineer-in-test-sdet-jobs) — 2026-11-18, /blog/remote-sdet-jobs-2026
 - [ ] QA Jobs for Freshers: Entry-Level Testing Roles You Can Apply For Now (→ /s/junior-qa-engineer-jobs)
 - [ ] Manual QA Tester Jobs: Where They Still Hire (→ /s/qa-manual-tester-jobs)
-- [ ] QA Jobs in Poland: Remote and Hybrid Roles (→ /s/poland-jobs)
+- [x] QA Jobs in Poland: Remote and Hybrid Roles (→ /s/poland-jobs) — 2026-11-18, /blog/qa-jobs-in-poland-2026
 - [ ] QA Jobs in Portugal and Spain for English Speakers (→ /s/portugal-jobs, /s/spain-jobs)
 - [ ] QA Jobs in Canada: Remote Roles and Salaries (→ /s/canada-jobs)
 - [ ] QA Jobs in the Baltics: Latvia, Lithuania, Estonia (→ /s/latvia-jobs …)
