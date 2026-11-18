@@ -21,7 +21,7 @@ Nedēļas ritms (rīta uzdevums izvēlas pēc nedēļas dienas). Pirmdienās, tr
 
 ## Tēmas, kas ved tieši uz darbu lapām (prioritāte)
 Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem, bet klikšķu maz. Šīs tēmas ņem PIRMĀS, augšējās vispirms. Katrā rakstā saite uz attiecīgo /s/ lapu (tām tagad ir savs virsraksts un ievads) un uz 2 citām /s/ lapām.
-- [ ] QA Jobs in Germany: Remote and On-site Software Testing Roles (→ /s/germany-jobs; Google: 257 parādīšanās, poz. 13,8)
+- [x] QA Jobs in Germany: Remote and On-site Software Testing Roles (→ /s/germany-jobs) — 2026-11-18, /blog/qa-jobs-in-germany-2026
 - [ ] Junior QA Engineer Jobs in Europe: Entry-Level Testing Roles (→ /s/junior-qa-engineer-jobs; vaicājums „junior qa engineer europe jobs hiring”)
 - [ ] QA Jobs in Poland (→ /s/poland-jobs; 110 parādīšanās)
 - [ ] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu)
