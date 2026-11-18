@@ -2,7 +2,7 @@
 """Atlasa uzņēmumus, kurus šodien uzrunāt ar piedāvājumu likt darbus QA Job Board.
 
 Ņem https://www.qajobboard.com/jobs.json, atstāj uzņēmumus ar programmatūras QA darbu,
-kas publicēts pēdējās 10 dienās, izlaiž lielos uzņēmumus un jau uzrunātos
+kas publicēts pēdējās 30 dienās, izlaiž lielos uzņēmumus un jau uzrunātos
 (outreach/contacted.csv, tikai lokāli, nav git). Izvada JSON sarakstu.
 
 Palaišana: python3 outreach/candidates.py [skaits]
@@ -59,7 +59,7 @@ def main():
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 25
     jobs = load_jobs()
     newest = max(j["published_at"][:10] for j in jobs)
-    cutoff = (dt.date.fromisoformat(newest) - dt.timedelta(days=10)).isoformat()
+    cutoff = (dt.date.fromisoformat(newest) - dt.timedelta(days=30)).isoformat()
     per_company = Counter(j["company"]["name"] for j in jobs if j.get("company"))
     done = contacted()
     by = defaultdict(list)
