@@ -11,6 +11,13 @@ Sagatavots 2026-11-15. Skaitļi ņemti no qajobboard.com/jobs.json tajā pašā 
 - Neizvēlies 23.–29. novembri: ASV ir Pateicības diena, un Product Hunt ir mazāk lietotāju.
 - Laiku iestati Product Hunt sadaļā „Schedule a launch”. Ieraksts būs aktīvs 24 stundas.
 
+## Atjauninājums 2026-11-18
+- **Skaitļi šodien** (qajobboard.com/jobs.json): 2 162 aktīvi darbi, 1 474 remote, 1 260 uzņēmumi. Aprakstos „2,000+ jobs” un „1,200+ companies” der. Rīku dati (insights.json): Selenium 31,1%, Playwright 26,5%, Cypress 18,3%; algas mediāna $110k (n=178). 1. decembrī vēlreiz pārbaudi.
+- **Links laukā pievieno visus profilus:** LinkedIn https://www.linkedin.com/company/qa-jobs-board, X https://x.com/qajobboard, YouTube https://www.youtube.com/@findqajobs, TikTok https://www.tiktok.com/@findqajobs, Instagram https://www.instagram.com/findqajobs/, Facebook https://www.facebook.com/profile.php?id=61567326351969.
+- **Galerijā kā pirmo pievieno video:** Product Hunt atļauj YouTube saiti. Izmanto „QA Jobs Weekly” video no kanāla @findqajobs (pirmais iznāk 19.11 17:00). Video galerijā parasti iegūst vairāk uzmanības nekā ekrānuzņēmumi.
+- **Pēc palaišanas** pievieno Product Hunt nozīmīti vietnes kājenē (Jobboardly → Integrations → custom code) un saiti sameAs sarakstā.
+- **Kopienas tajā dienā:** melnraksti r/QualityAssurance un r/cscareerquestionsEU ir `blog/community/`; palaišanas dienā izmanto tos pašus kanālus ar Product Hunt saiti.
+
 ## Pamatinformācija (Product Hunt formas lauki)
 - **Name:** QA Job Board
 - **Website:** https://www.qajobboard.com
@@ -19,7 +26,7 @@ Sagatavots 2026-11-15. Skaitļi ņemti no qajobboard.com/jobs.json tajā pašā 
   - B variants: `The job board for QA engineers, SDETs and testers` (49)
   - C variants: `2,000+ QA and SDET jobs, updated daily` (38)
 - **Description (maks. 260 rakstzīmes):**
-  > A job board only for software testers. 2,000+ QA, SDET and test automation jobs from 1,100+ companies, pulled from company career pages every day. Every job shows the salary when published and which countries a remote role is open to. Free for job seekers.
+  > A job board only for software testers. 2,000+ QA, SDET and test automation jobs from 1,200+ companies, pulled from company career pages every day. Every job shows the salary when published and which countries a remote role is open to. Free for job seekers.
 
   (254 rakstzīmes)
 - **Topics (līdz 3):** Hiring, Remote Work, Developer Tools (vai Software Engineering)
@@ -49,14 +56,14 @@ Publicē to uzreiz pēc palaišanas.
 >
 > **What it does**
 > • Lists only software testing roles: QA engineers, SDETs, test automation, manual testers, QA leads and test managers
-> • 2,000+ open jobs from 1,100+ companies, collected from company career pages every day
+> • 2,000+ open jobs from 1,200+ companies, collected from company career pages every day
 > • Shows the salary whenever the employer publishes it
 > • Shows where a remote job is really open: "remote" usually means one country, and we show which one (or Europe, LATAM, worldwide)
 > • Free for job seekers, with email alerts
 >
 > **Some things we learned from the data**
 > • The median advertised QA salary is $110k, and SDETs earn the most among hands-on roles
-> • Selenium is still the most requested tool, but Playwright is close behind (31% vs 28% of job posts)
+> • Selenium is still the most requested tool, but Playwright is close behind (31% vs 27% of job posts)
 > • Only ~4% of QA jobs are junior, so we wrote a roadmap for people trying to break in
 >
 > **For hiring teams:** you can post a QA job from $99 and reach testers who are actively looking.
@@ -86,7 +93,7 @@ Publicē to uzreiz pēc palaišanas.
 ## LinkedIn ieraksts palaišanas dienā
 > We just launched QA Job Board on Product Hunt 🚀
 >
-> It's a job board only for software testers: 2,000+ QA, SDET and test automation jobs from 1,100+ companies, updated every day. Every job shows the salary when it's published and where a remote role is really open (one country, Europe, LATAM or worldwide).
+> It's a job board only for software testers: 2,000+ QA, SDET and test automation jobs from 1,200+ companies, updated every day. Every job shows the salary when it's published and where a remote role is really open (one country, Europe, LATAM or worldwide).
 >
 > If you work in QA, I'd really appreciate your feedback on Product Hunt 👇
 > [saite uz Product Hunt]
