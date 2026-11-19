@@ -36,7 +36,10 @@ BIG = re.compile(r"nvidia|google|amazon|microsoft|apple|meta|oracle|ibm|sap\b|^s
                  r"raytheon|boeing|siemens|ericsson|nokia|intel\b|cisco|dell|hp\b|salesforce|adobe|jpmorgan|"
                  r"citi|wells fargo|bank of america|walmart|uber|netflix|spotify|epam|globallogic|luxoft|"
                  r"booz allen|general dynamics|northrop|saic|caci|mantech|avaya|dexcom|fortrea|jabil|^icf$|valtech|"
-                 r"compass uol|kainos|ubisoft|^sofi$|okta|openai|airbnb|tether|upwork|software mind|pearson|experian|genpact|sumup|trivago|airwallex|mercury insurance", re.I)
+                 r"compass uol|kainos|ubisoft|^sofi$|okta|openai|airbnb|tether|upwork|software mind|pearson|experian|genpact|sumup|trivago|airwallex|mercury insurance|"
+                 r"discord|mercor|pole to win|^side$|ciklum|endava|^ci&t$|abbvie|scopely|veeva|riot games|zscaler|jetbrains|"
+                 r"delivery hero|binance|transperfect|canonical|conduent|^continental$|duolingo|^toast$|jfrog|epic games|nubank|"
+                 r"hilton|hearst|keywords studios|livanova|fortive|agilent", re.I)
 
 
 def contacted():
