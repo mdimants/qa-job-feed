@@ -25,8 +25,8 @@ Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem,
 - [ ] Junior QA Engineer Jobs in Europe: Entry-Level Testing Roles (→ /s/junior-qa-engineer-jobs; vaicājums „junior qa engineer europe jobs hiring”) — 2026-11-18 izlaists: tikai ~7 junior darbi Eiropā (<15)
 - [x] QA Jobs in Poland (→ /s/poland-jobs; 110 parādīšanās) — 2026-11-18, /blog/qa-jobs-in-poland-2026
 - [x] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu) — 2026-11-19, /blog/quality-assurance-jobs-2026
-- [ ] Remote QA Jobs Worldwide: Where to Find Them in 2026 (→ /s/remote-jobs; „remote qa jobs” poz. 17,6)
-- [ ] QA Jobs in Romania (→ /s/romania-jobs) un QA Jobs in Austria (→ /s/austria-jobs)
+- [ ] Remote QA Jobs Worldwide: Where to Find Them in 2026 (→ /s/remote-jobs; „remote qa jobs” poz. 17,6) — 2026-11-19 izlaists: dublētu /blog/remote-qa-jobs-2026-who-is-hiring; labāk to atjaunot svētdienā
+- [x] QA Jobs in Romania (→ /s/romania-jobs) — 2026-11-19, /blog/qa-jobs-in-romania-2026; Austria izlaista: tikai 1 darbs (<15)
 - [ ] Software Testing Jobs: Manual, Automation and SDET (→ /s/software-tester-jobs; poz. 20,7)
 Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attiecīgo /s/ lapu.
 - [x] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright) — 2026-11-16, /blog/playwright-jobs-2026
