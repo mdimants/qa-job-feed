@@ -27,7 +27,7 @@ Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem,
 - [x] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu) — 2026-11-19, /blog/quality-assurance-jobs-2026
 - [ ] Remote QA Jobs Worldwide: Where to Find Them in 2026 (→ /s/remote-jobs; „remote qa jobs” poz. 17,6) — 2026-11-19 izlaists: dublētu /blog/remote-qa-jobs-2026-who-is-hiring; labāk to atjaunot svētdienā
 - [x] QA Jobs in Romania (→ /s/romania-jobs) — 2026-11-19, /blog/qa-jobs-in-romania-2026; Austria izlaista: tikai 1 darbs (<15)
-- [ ] Software Testing Jobs: Manual, Automation and SDET (→ /s/software-tester-jobs; poz. 20,7)
+- [x] Software Testing Jobs: Manual, Automation and SDET (→ /s/software-tester-jobs; poz. 20,7) — 2026-11-19, /blog/software-testing-jobs-2026
 Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attiecīgo /s/ lapu.
 - [x] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright) — 2026-11-16, /blog/playwright-jobs-2026
 - [x] Remote SDET Jobs: Companies Hiring Software Engineers in Test (→ /s/software-development-engineer-in-test-sdet-jobs) — 2026-11-18, /blog/remote-sdet-jobs-2026
