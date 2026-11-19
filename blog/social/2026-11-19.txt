@@ -1,0 +1,16 @@
+Only 49 of 1,119 open QA jobs today are junior roles. That is 4%.
+
+We looked at every fresh quality assurance job on QA Job Board this week. A few things stood out:
+
+- 755 companies are hiring, and 91.8% of the jobs can be done remotely
+- The median advertised salary is $110,000; QA analysts sit lower at $91,000, test managers at $163,000
+- QA Engineer, QA Automation Engineer and Senior QA Engineer make up more than half of all openings
+- Selenium is still in 29.5% of job descriptions, but Playwright is close behind at 25.5%
+
+One more thing: about half of the job titles with "Quality Assurance" in them do not mention testing, software or engineering. Many are pharma or operations QA. Search by role name instead.
+
+If you hire testers, how do you judge a junior candidate with no work experience?
+
+Full article: https://www.qajobboard.com/blog/quality-assurance-jobs-2026
+
+#QA #SoftwareTesting #SDET #TestAutomation #QualityAssurance

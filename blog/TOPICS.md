@@ -24,7 +24,7 @@ Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem,
 - [x] QA Jobs in Germany: Remote and On-site Software Testing Roles (→ /s/germany-jobs) — 2026-11-18, /blog/qa-jobs-in-germany-2026
 - [ ] Junior QA Engineer Jobs in Europe: Entry-Level Testing Roles (→ /s/junior-qa-engineer-jobs; vaicājums „junior qa engineer europe jobs hiring”) — 2026-11-18 izlaists: tikai ~7 junior darbi Eiropā (<15)
 - [x] QA Jobs in Poland (→ /s/poland-jobs; 110 parādīšanās) — 2026-11-18, /blog/qa-jobs-in-poland-2026
-- [ ] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu)
+- [x] Quality Assurance Jobs: Roles, Pay and Where to Find Them (→ /jobs, /s/qa-analyst-jobs; „quality assurance jobs” poz. 16, 0 klikšķu) — 2026-11-19, /blog/quality-assurance-jobs-2026
 - [ ] Remote QA Jobs Worldwide: Where to Find Them in 2026 (→ /s/remote-jobs; „remote qa jobs” poz. 17,6)
 - [ ] QA Jobs in Romania (→ /s/romania-jobs) un QA Jobs in Austria (→ /s/austria-jobs)
 - [ ] Software Testing Jobs: Manual, Automation and SDET (→ /s/software-tester-jobs; poz. 20,7)
