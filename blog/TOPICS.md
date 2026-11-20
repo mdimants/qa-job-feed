@@ -34,7 +34,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] QA Jobs for Freshers: Entry-Level Testing Roles You Can Apply For Now (→ /s/junior-qa-engineer-jobs) — 2026-11-20, /blog/qa-jobs-for-freshers-2026
 - [x] Manual QA Tester Jobs: Where They Still Hire (→ /s/qa-manual-tester-jobs) — 2026-11-20, /blog/manual-qa-tester-jobs-2026
 - [x] QA Jobs in Poland: Remote and Hybrid Roles (→ /s/poland-jobs) — 2026-11-18, /blog/qa-jobs-in-poland-2026
-- [ ] QA Jobs in Portugal and Spain for English Speakers (→ /s/portugal-jobs, /s/spain-jobs)
+- [x] QA Jobs in Portugal and Spain for English Speakers (→ /s/portugal-jobs, /s/spain-jobs) — 2026-11-20, /blog/qa-jobs-in-portugal-and-spain-2026
 - [ ] QA Jobs in Canada: Remote Roles and Salaries (→ /s/canada-jobs)
 - [ ] QA Jobs in the Baltics: Latvia, Lithuania, Estonia (→ /s/latvia-jobs …)
 - [ ] Test Manager Jobs: Salaries and Remote Openings (→ /s/test-manager-jobs)
