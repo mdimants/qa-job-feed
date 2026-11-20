@@ -31,7 +31,7 @@ Search Console 2026-11-18 (28 dienas): Google jau rāda mūs šiem vaicājumiem,
 Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attiecīgo /s/ lapu.
 - [x] Playwright Jobs in 2026: Who Hires Playwright Testers and What They Pay (→ /jobs?q=playwright) — 2026-11-16, /blog/playwright-jobs-2026
 - [x] Remote SDET Jobs: Companies Hiring Software Engineers in Test (→ /s/software-development-engineer-in-test-sdet-jobs) — 2026-11-18, /blog/remote-sdet-jobs-2026
-- [ ] QA Jobs for Freshers: Entry-Level Testing Roles You Can Apply For Now (→ /s/junior-qa-engineer-jobs)
+- [x] QA Jobs for Freshers: Entry-Level Testing Roles You Can Apply For Now (→ /s/junior-qa-engineer-jobs) — 2026-11-20, /blog/qa-jobs-for-freshers-2026
 - [ ] Manual QA Tester Jobs: Where They Still Hire (→ /s/qa-manual-tester-jobs)
 - [x] QA Jobs in Poland: Remote and Hybrid Roles (→ /s/poland-jobs) — 2026-11-18, /blog/qa-jobs-in-poland-2026
 - [ ] QA Jobs in Portugal and Spain for English Speakers (→ /s/portugal-jobs, /s/spain-jobs)

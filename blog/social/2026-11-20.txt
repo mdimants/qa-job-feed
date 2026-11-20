@@ -1,0 +1,14 @@
+Only 47 of 1,130 open QA jobs on our board are tagged junior. Here is where the entry-level roles actually are.
+
+We read every live listing for junior, intern, graduate and fresher titles and found 56 real entry-level software testing jobs from 48 companies.
+
+40 of the 56 are remote. 20 are limited to US candidates.
+The median advertised junior QA salary is $85,000, from a small sample of 11 listings.
+SQL shows up in 38% of entry-level descriptions and API testing in 32%, more than Selenium (23%) or Playwright (16%).
+ISTQB is mentioned in only 9%.
+
+If you hire juniors: what do you look for first, a certificate or a project you can open?
+
+Full article: https://www.qajobboard.com/blog/qa-jobs-for-freshers-2026
+
+#QA #SoftwareTesting #SDET #TestAutomation #JuniorQA
