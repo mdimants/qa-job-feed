@@ -36,8 +36,8 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] QA Jobs in Poland: Remote and Hybrid Roles (→ /s/poland-jobs) — 2026-11-18, /blog/qa-jobs-in-poland-2026
 - [x] QA Jobs in Portugal and Spain for English Speakers (→ /s/portugal-jobs, /s/spain-jobs) — 2026-11-20, /blog/qa-jobs-in-portugal-and-spain-2026
 - [x] QA Jobs in Canada: Remote Roles and Salaries (→ /s/canada-jobs) — 2026-11-21, /blog/qa-jobs-in-canada-2026
-- [ ] QA Jobs in the Baltics: Latvia, Lithuania, Estonia (→ /s/latvia-jobs …)
-- [ ] Test Manager Jobs: Salaries and Remote Openings (→ /s/test-manager-jobs)
+- [ ] QA Jobs in the Baltics: Latvia, Lithuania, Estonia (→ /s/latvia-jobs …) — 2026-11-22 izlaists: tikai ~11 darbu (<15)
+- [x] Test Manager Jobs: Salaries and Remote Openings (→ /s/test-manager-jobs) — 2026-11-22, /blog/test-manager-jobs-2026
 - [ ] QA Lead Jobs: What Companies Expect From a QA Lead (→ /s/qa-lead-jobs)
 - [ ] Cypress Jobs in 2026 (→ /jobs?q=cypress)
 - [ ] Salesforce QA Jobs: Skills and Pay (→ /jobs?q=salesforce)
