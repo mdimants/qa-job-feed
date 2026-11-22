@@ -4,8 +4,8 @@ We read all 89 QA and software testing jobs in Canada on QA Job Board. 75 of the
 
 The salary median comes from the 21 ads with a yearly range in Canadian dollars.
 Playwright (38 jobs) is ahead of Selenium (33) in Canada.
-API testing and CI/CD each appear in 52 of the 89 ads.
-16 ads mention French or bilingual skills, mostly with Quebec employers.
+CI/CD appears in 52 of the 89 ads and API testing in 43.
+15 ads mention French language skills, mostly with Quebec employers.
 
 If you test software in Canada: does that salary range match what you see in real offers?
 
