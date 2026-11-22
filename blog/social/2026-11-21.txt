@@ -1,0 +1,14 @@
+Canadian QA jobs that publish pay have a median of CAD 112,500.
+
+We read all 89 QA and software testing jobs in Canada on QA Job Board. 75 of them are remote, but every one of those 75 is limited to people living in Canada.
+
+The salary median comes from the 21 ads with a yearly range in Canadian dollars.
+Playwright (38 jobs) is ahead of Selenium (33) in Canada.
+API testing and CI/CD each appear in 52 of the 89 ads.
+16 ads mention French or bilingual skills, mostly with Quebec employers.
+
+If you test software in Canada: does that salary range match what you see in real offers?
+
+Full article: https://www.qajobboard.com/blog/qa-jobs-in-canada-2026
+
+#QA #SoftwareTesting #SDET #TestAutomation #CanadaJobs
