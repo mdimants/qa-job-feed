@@ -1,0 +1,14 @@
+US test manager job ads with a published salary have a median midpoint of about $164,000.
+
+We read 34 software test manager, QA manager and QA director jobs posted on QA Job Board in the last 90 days.
+
+29 of the 34 are remote, but almost all are limited to one country or region.
+21 of the 31 full descriptions mention test strategy, and 21 mention test automation.
+The ads that state experience ask for a median of 8 years.
+6 name an enterprise platform in the title: SAP, Workday, Oracle or Salesforce.
+
+If you manage testing today: how much of your week is still hands-on automation?
+
+Full article: https://www.qajobboard.com/blog/test-manager-jobs-2026
+
+#QA #SoftwareTesting #TestAutomation #TestManagement #SDET
