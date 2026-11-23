@@ -40,7 +40,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] Test Manager Jobs: Salaries and Remote Openings (→ /s/test-manager-jobs) — 2026-11-22, /blog/test-manager-jobs-2026
 - [x] QA Lead Jobs: What Companies Expect From a QA Lead (→ /s/qa-lead-jobs) — 2026-11-23, /blog/qa-lead-jobs-2026
 - [x] Cypress Jobs in 2026 (→ /jobs?q=cypress) — 2026-11-23, /blog/cypress-jobs-2026
-- [ ] Salesforce QA Jobs: Skills and Pay (→ /jobs?q=salesforce)
+- [x] Salesforce QA Jobs: Skills and Pay (→ /jobs?q=salesforce) — 2026-11-23, /blog/salesforce-qa-jobs-2026
 - [ ] Game Tester and Game QA Jobs (→ /jobs?q=game)
 - [ ] QA Jobs at Startups vs Big Tech
 
