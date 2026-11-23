@@ -1,0 +1,13 @@
+We found 115 open QA lead roles. 91 of the 110 with a full description ask for test automation.
+
+What companies expect from a QA lead in 2026:
+- 63 ads say the role is hands-on, and 62 ask you to mentor or coach other testers.
+- 47 mention AI tools, LLMs or AI agents. Endava and Hostinger now hire leads built around AI testing.
+- The 20 US ads with a yearly salary range have a median midpoint of about $138,000.
+- 101 of the 115 roles are remote, but most are limited to one country. 5 years of experience is the most common requirement.
+
+If you lead a QA team today, how much of your week is still spent writing tests?
+
+Full article: https://www.qajobboard.com/blog/qa-lead-jobs-2026
+
+#QA #SoftwareTesting #TestAutomation #SDET #QALead
