@@ -1,0 +1,15 @@
+25 game tester jobs are open on QA Job Board right now. Not one of them lists a salary.
+
+What the data shows:
+- 21 of 25 are remote, about the same as the wider QA market (90.8%)
+- 15 of 25 are contract or freelance work, versus about 15% of all QA jobs
+- 12 are localization (LQA) roles, where the main requirement is a native language, not years of testing
+- One vendor posts 44% of them. Studios like Supercell, Ubisoft and Stillfront hire directly, and iGaming companies want testers who can check payouts and RTP
+
+If you want steady full-time work, the path is QA engineering at a studio or iGaming company: manual and regression testing, plus Appium or the Unity Test Framework.
+
+Did you start your QA career in games, or move into games later?
+
+Full article: https://www.qajobboard.com/blog/game-tester-jobs-2026
+
+#QA #SoftwareTesting #GameTesting #TestAutomation #SDET
