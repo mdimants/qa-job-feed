@@ -244,5 +244,14 @@
   "meta_description": "25 game QA jobs analysed: 84% remote, 60% contract, 12 LQA roles, the skills studios ask for and where to find game tester jobs now.",
   "published": "2026-11-24",
   "jb_id": 3128
+ },
+ {
+  "slug": "performance-testing-jobs-2026",
+  "title": "Performance Testing Jobs in 2026: JMeter, k6 and Gatling Demand",
+  "excerpt": "We analysed 146 QA job posts that mention load testing tools: JMeter leads, k6 suits TypeScript teams, 97.3% are remote and the median salary is $131.5k.",
+  "tags": "performance testing, jmeter, k6, gatling, qa jobs, load testing",
+  "meta_title": "Performance Testing Jobs 2026: JMeter, k6, Gatling",
+  "meta_description": "146 QA jobs mention load testing tools: JMeter in 118 posts, k6 in 67, Gatling in 44. Roles, skills, remote share and a $131.5k median salary.",
+  "published": "2026-11-24"
  }
 ]

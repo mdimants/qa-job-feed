@@ -42,7 +42,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] Cypress Jobs in 2026 (→ /jobs?q=cypress) — 2026-11-23, /blog/cypress-jobs-2026
 - [x] Salesforce QA Jobs: Skills and Pay (→ /jobs?q=salesforce) — 2026-11-23, /blog/salesforce-qa-jobs-2026
 - [x] Game Tester and Game QA Jobs (→ /jobs?q=game) — 2026-11-24, /blog/game-tester-jobs-2026
-- [ ] QA Jobs at Startups vs Big Tech
+- [ ] QA Jobs at Startups vs Big Tech — 2026-11-24 izlaists: plūsmā nav uzņēmumu lieluma datu
 
 ## Tēmas
 - [x] QA Engineer Salary in 2026: What QA Job Posts Actually Pay — 2026-11-05, /blog/qa-engineer-salary-2026
@@ -55,7 +55,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] QA Automation Engineer Interview Questions (with Answers) — 2026-11-15, /blog/qa-automation-engineer-interview-questions
 - [ ] How to Write a QA Engineer Resume That Gets Interviews
 - [ ] QA Lead vs Test Manager: Responsibilities and Pay
-- [ ] Performance Testing Jobs: k6, JMeter and Gatling Demand
+- [x] Performance Testing Jobs: k6, JMeter and Gatling Demand — 2026-11-24, /blog/performance-testing-jobs-2026
 - [ ] Mobile QA Jobs: Appium, Detox, XCUITest and Espresso
 - [ ] API Testing Skills Employers Want (Postman, REST Assured)
 - [ ] Python vs Java vs TypeScript for Test Automation Jobs
