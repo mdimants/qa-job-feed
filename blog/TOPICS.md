@@ -65,7 +65,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [ ] QA Jobs in the UK: Salary Ranges and Top Employers
 - [ ] QA Jobs in Germany (English-Speaking Roles)
 - [ ] QA Jobs in Poland, Romania and Ukraine
-- [ ] QA Jobs in Latin America for Remote US Companies
+- [x] QA Jobs in Latin America for Remote US Companies — 2026-11-26, /blog/qa-jobs-in-latin-america-2026
 - [ ] Testing AI and LLM Features: The New QA Skill
 - [x] How to Hire a QA Engineer in 2026 (Guide for Startups) — 2026-11-06, /blog/how-to-hire-a-qa-engineer-2026
 - [ ] How Much Does a QA Engineer Cost? Salary Benchmarks for Employers

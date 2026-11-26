@@ -1,0 +1,12 @@
+We counted 175 open QA jobs limited to candidates in Latin America. Every single one is remote.
+
+Brazil leads with 53 roles from 35 companies, then Mexico (36) and Colombia (19). Another 29 accept anyone in the region.
+Most of the hiring comes from nearshore firms placing testers on US client teams, plus product companies such as Airbnb, Upgrade and Onfleet.
+English matters: 97 of the 175 ads mention it, and 49 ask for an advanced or fluent level.
+Playwright (74 ads) edges out Selenium (71) in the region, and 37 of the jobs are contracts.
+
+If you test software from Latin America, do you work for a local company or a US client?
+
+Full article: https://www.qajobboard.com/blog/qa-jobs-in-latin-america-2026
+
+#QA #SoftwareTesting #TestAutomation #RemoteWork #LATAM
