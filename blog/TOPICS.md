@@ -61,7 +61,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [ ] Python vs Java vs TypeScript for Test Automation Jobs
 - [x] QA Jobs in India: Remote Roles You Can Apply For — 2026-11-26, /blog/qa-jobs-in-india-2026
 - [ ] QA Jobs in Europe: Countries With the Most Openings
-- [ ] QA Jobs in the United States: Salaries and Remote Options
+- [x] QA Jobs in the United States: Salaries and Remote Options — 2026-11-26, /blog/qa-jobs-in-the-united-states-2026
 - [ ] QA Jobs in the UK: Salary Ranges and Top Employers
 - [ ] QA Jobs in Germany (English-Speaking Roles)
 - [ ] QA Jobs in Poland, Romania and Ukraine
