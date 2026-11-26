@@ -1,24 +1,24 @@
 {
  "generated": "2026-11-26",
- "total_jobs": 1225,
- "raw_found": 5304,
- "remote_jobs": 1125,
+ "total_jobs": 1219,
+ "raw_found": 5388,
+ "remote_jobs": 1119,
  "remote_share": 91.8,
- "new_last_7_days": 999,
- "companies": 815,
- "remote_companies": 760,
+ "new_last_7_days": 993,
+ "companies": 809,
+ "remote_companies": 754,
  "categories": [
   [
    "QA Engineer",
-   339
+   338
   ],
   [
    "QA Automation Engineer",
-   223
+   222
   ],
   [
    "Senior QA Engineer",
-   153
+   148
   ],
   [
    "Software Tester",
@@ -58,7 +58,7 @@
   ],
   [
    "Test Lead",
-   13
+   14
   ],
   [
    "Penetration Tester",
@@ -68,15 +68,15 @@
  "seniority": [
   [
    "Mid-level",
-   722
+   721
   ],
   [
    "Senior",
-   256
+   254
   ],
   [
    "Lead / Manager",
-   193
+   190
   ],
   [
    "Junior",
@@ -86,7 +86,7 @@
  "job_types": [
   [
    "fulltime",
-   1025
+   1019
   ],
   [
    "contract",
@@ -105,17 +105,17 @@
    5
   ]
  ],
- "salary_disclosed_share": 19.3,
+ "salary_disclosed_share": 19.0,
  "salary_overall": {
-  "n": 237,
+  "n": 232,
   "p25": 88000.0,
-  "median": 112000.0,
-  "p75": 138000.0
+  "median": 111000.0,
+  "p75": 137000.0
  },
  "salary_by_category": {
   "QA Engineer": {
-   "n": 63,
-   "p25": 80000.0,
+   "n": 62,
+   "p25": 82000.0,
    "median": 98000.0,
    "p75": 120000.0
   },
@@ -150,10 +150,10 @@
    "p75": 140000.0
   },
   "Senior QA Engineer": {
-   "n": 44,
+   "n": 40,
    "p25": 115000.0,
    "median": 128000.0,
-   "p75": 162000.0
+   "p75": 151000.0
   },
   "Software Tester": {
    "n": 23,
@@ -176,10 +176,10 @@
  },
  "salary_by_seniority": {
   "Lead / Manager": {
-   "n": 67,
+   "n": 63,
    "p25": 98000.0,
-   "median": 140000.0,
-   "p75": 162000.0
+   "median": 138000.0,
+   "p75": 158000.0
   },
   "Senior": {
    "n": 46,
@@ -188,9 +188,9 @@
    "p75": 132000.0
   },
   "Mid-level": {
-   "n": 109,
-   "p25": 75000.0,
-   "median": 105000.0,
+   "n": 108,
+   "p25": 80000.0,
+   "median": 106000.0,
    "p75": 117000.0
   },
   "Junior": {
@@ -200,86 +200,86 @@
    "p75": 98000.0
   }
  },
- "jobs_with_description": 1186,
+ "jobs_with_description": 1180,
  "tools": [
   [
    "Selenium",
-   347,
+   346,
    29.3
   ],
   [
    "Playwright",
-   301,
+   300,
    25.4
   ],
   [
    "SQL",
    283,
-   23.9
+   24.0
   ],
   [
    "Jira",
-   274,
-   23.1
+   275,
+   23.3
   ],
   [
    "Postman",
-   244,
-   20.6
+   245,
+   20.8
   ],
   [
    "Cypress",
    204,
-   17.2
+   17.3
   ],
   [
    "AWS",
    164,
-   13.8
+   13.9
   ],
   [
    "Jenkins",
-   157,
+   156,
    13.2
   ],
   [
    "AI / LLM testing",
-   148,
+   147,
    12.5
   ],
   [
    "JMeter",
-   128,
-   10.8
+   129,
+   10.9
   ],
   [
    "Docker",
-   127,
+   126,
    10.7
   ],
   [
    "GitHub Actions",
    120,
-   10.1
+   10.2
   ],
   [
    "REST Assured",
-   103,
-   8.7
+   102,
+   8.6
   ],
   [
    "Appium",
-   100,
+   99,
    8.4
   ],
   [
    "Cucumber/BDD",
    95,
-   8.0
+   8.1
   ],
   [
    "Kubernetes",
-   94,
+   93,
    7.9
   ],
   [
@@ -294,7 +294,7 @@
   ],
   [
    "Gatling",
-   50,
+   49,
    4.2
   ],
   [
@@ -322,22 +322,22 @@
   [
    "Python",
    297,
-   25.0
+   25.2
   ],
   [
    "JavaScript",
-   258,
+   257,
    21.8
   ],
   [
    "Java",
-   239,
+   238,
    20.2
   ],
   [
    "TypeScript",
    182,
-   15.3
+   15.4
   ],
   [
    "C#",
@@ -368,11 +368,11 @@
  "countries": [
   [
    "United States",
-   409
+   404
   ],
   [
    "India",
-   110
+   109
   ],
   [
    "Canada",
@@ -471,15 +471,15 @@
    6
   ],
   [
+   "Hungary",
+   4
+  ],
+  [
    "Italy",
    4
   ],
   [
    "Hungary",
-   4
-  ],
-  [
-   "Turkey",
    4
   ],
   [
@@ -541,7 +541,7 @@
    "example_titles": [
     "Manual QA Engineer (US)",
     "Manual QA Engineer (UK)",
-    "Manual QA Engineer (Ukraine)"
+    "Manual QA Engineer (Belgium)"
    ],
    "where": [
     "United States",
@@ -557,7 +557,7 @@
    "example_titles": [
     "Senior QA Analyst, Privileged Access Management",
     "Senior SDET, PAM",
-    "Software Development Test Engineer (SDET), IOS"
+    "Software Development Test Engineer (SDET), Android"
    ],
    "where": [
     "United States"
@@ -609,6 +609,22 @@
     "United States"
    ],
    "median_salary_usd": 110000.0
+  },
+  {
+   "company": "XKTalent Inc. - Rimutee",
+   "remote_jobs": 7,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/u23a4yf1gn20pbcflruc7ep6echs",
+   "example_titles": [
+    "QA MANUAL SENIOR - REMOTO",
+    "QA MANUAL SENIOR",
+    "QA MANUAL LEAD"
+   ],
+   "where": [
+    "LATAM",
+    "Dominican Republic"
+   ],
+   "median_salary_usd": null
   },
   {
    "company": "Nagarro",
@@ -670,22 +686,6 @@
     "United States"
    ],
    "median_salary_usd": 138000.0
-  },
-  {
-   "company": "XKTalent Inc. - Rimutee",
-   "remote_jobs": 6,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/u23a4yf1gn20pbcflruc7ep6echs",
-   "example_titles": [
-    "QA MANUAL SENIOR - REMOTO",
-    "QA MANUAL SENIOR",
-    "QA MANUAL LEAD"
-   ],
-   "where": [
-    "LATAM",
-    "Mexico"
-   ],
-   "median_salary_usd": null
   },
   {
    "company": "Xperteez Technology",
@@ -750,22 +750,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Upgrade",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/4v7o7qdjxs2llz5osyicgscqry7m",
-   "example_titles": [
-    "Senior QA Automation Engineer (Platform)",
-    "Senior QA Automation Developer (Platform)",
-    "Senior QA Automation Engineer - Product (LATAM)"
-   ],
-   "where": [
-    "United States",
-    "Canada"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "Valtech",
    "remote_jobs": 5,
    "url": "",
@@ -788,12 +772,12 @@
    "logo": "https://cdn-images.himalayas.app/qm45ge9z7ovif6tgv4leq7re76kc",
    "example_titles": [
     "Maps Quality Tester- English (Austin)",
-    "Crux - Video and Audio QA - Indonesian (Indonesia)",
-    "Crux - Video and Audio QA - English (US)"
+    "Crux - Video and Audio QA - English (US)",
+    "Crux - Video and Audio QA - French (France)"
    ],
    "where": [
     "United States",
-    "Indonesia"
+    "France"
    ],
    "median_salary_usd": null
   },
@@ -851,8 +835,8 @@
    "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
    "example_titles": [
     "AI Product Tester (Consumer Safety & Security)",
-    "Dimensional Metrology Quality Engineer",
-    "Electronics Assembly Quality Engineer"
+    "Electronics Assembly Quality Engineer",
+    "Dimensional Metrology Quality Engineer"
    ],
    "where": [
     "United States",
@@ -919,6 +903,22 @@
    "where": [
     "Pakistan",
     "Colombia"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Upgrade",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/4v7o7qdjxs2llz5osyicgscqry7m",
+   "example_titles": [
+    "Senior QA Automation Engineer (Platform)",
+    "Senior QA Automation Developer (Platform)",
+    "Senior QA Automation Engineer - Product (LATAM)"
+   ],
+   "where": [
+    "Canada",
+    "United States"
    ],
    "median_salary_usd": null
   },
