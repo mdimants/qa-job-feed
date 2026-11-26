@@ -59,7 +59,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [ ] Mobile QA Jobs: Appium, Detox, XCUITest and Espresso
 - [ ] API Testing Skills Employers Want (Postman, REST Assured)
 - [ ] Python vs Java vs TypeScript for Test Automation Jobs
-- [ ] QA Jobs in India: Remote Roles You Can Apply For
+- [x] QA Jobs in India: Remote Roles You Can Apply For — 2026-11-26, /blog/qa-jobs-in-india-2026
 - [ ] QA Jobs in Europe: Countries With the Most Openings
 - [ ] QA Jobs in the United States: Salaries and Remote Options
 - [ ] QA Jobs in the UK: Salary Ranges and Top Employers
