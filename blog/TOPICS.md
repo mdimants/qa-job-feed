@@ -68,7 +68,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] QA Jobs in Latin America for Remote US Companies — 2026-11-26, /blog/qa-jobs-in-latin-america-2026
 - [ ] Testing AI and LLM Features: The New QA Skill
 - [x] How to Hire a QA Engineer in 2026 (Guide for Startups) — 2026-11-06, /blog/how-to-hire-a-qa-engineer-2026
-- [ ] How Much Does a QA Engineer Cost? Salary Benchmarks for Employers
+- [x] How Much Does a QA Engineer Cost? Salary Benchmarks for Employers — 2026-11-27, /blog/qa-engineer-cost-salary-benchmarks-2026
 - [x] Best QA Job Boards in 2026 (job seekers + employers) — 2026-11-15, /blog/best-qa-job-boards-2026
 - [ ] QA Portfolio Projects That Get You Hired
 - [ ] ISTQB in 2026: Is QA Certification Still Worth It?

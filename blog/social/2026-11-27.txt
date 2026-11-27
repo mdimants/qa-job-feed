@@ -1,0 +1,14 @@
+A mid-level QA engineer is advertised at a median of $102,000 a year. Here is what moves that number up or down.
+
+We looked at 1,171 open QA jobs. Only 19.9% publish a salary.
+Senior roles sit at a $116,000 median, lead and manager roles at $140,000, test managers at $163,000.
+"Automation" in the title adds about $18,000: $116,000 against $98,000 for a plain QA Engineer post.
+Job posts that mention Python pay a median of $125,000.
+Outside the US only 6% of listings show pay, and the median there is $65,000.
+In a typical posted range, the top is 30% above the bottom.
+
+If you hire testers: do you publish the salary range in your job posts, and did it change who applied?
+
+Full article: https://www.qajobboard.com/blog/qa-engineer-cost-salary-benchmarks-2026
+
+#QA #SoftwareTesting #SDET #TestAutomation #Hiring
