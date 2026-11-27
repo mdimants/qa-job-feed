@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-26",
- "total_jobs": 1219,
- "raw_found": 5388,
- "remote_jobs": 1119,
- "remote_share": 91.8,
- "new_last_7_days": 993,
- "companies": 809,
- "remote_companies": 754,
+ "generated": "2026-11-27",
+ "total_jobs": 1171,
+ "raw_found": 3748,
+ "remote_jobs": 1072,
+ "remote_share": 91.5,
+ "new_last_7_days": 248,
+ "companies": 788,
+ "remote_companies": 734,
  "categories": [
   [
    "QA Engineer",
-   338
+   319
   ],
   [
    "QA Automation Engineer",
-   222
+   211
   ],
   [
    "Senior QA Engineer",
@@ -22,11 +22,11 @@
   ],
   [
    "Software Tester",
-   132
+   129
   ],
   [
    "QA Analyst",
-   95
+   88
   ],
   [
    "Software Development Engineer in Test (SDET)",
@@ -34,19 +34,19 @@
   ],
   [
    "Test Engineer",
-   50
+   49
   ],
   [
    "QA Manual Tester",
-   41
-  ],
-  [
-   "Test Manager",
-   27
+   40
   ],
   [
    "Junior QA Engineer",
    27
+  ],
+  [
+   "Test Manager",
+   25
   ],
   [
    "QA Lead",
@@ -58,39 +58,39 @@
   ],
   [
    "Test Lead",
-   14
+   13
   ],
   [
    "Penetration Tester",
-   12
+   9
   ]
  ],
  "seniority": [
   [
    "Mid-level",
-   721
+   682
   ],
   [
    "Senior",
-   254
+   251
   ],
   [
    "Lead / Manager",
-   190
+   187
   ],
   [
    "Junior",
-   54
+   51
   ]
  ],
  "job_types": [
   [
    "fulltime",
-   1019
+   978
   ],
   [
    "contract",
-   168
+   161
   ],
   [
    "parttime",
@@ -105,24 +105,30 @@
    5
   ]
  ],
- "salary_disclosed_share": 19.0,
+ "salary_disclosed_share": 19.9,
  "salary_overall": {
-  "n": 232,
-  "p25": 88000.0,
+  "n": 233,
+  "p25": 87000.0,
   "median": 111000.0,
   "p75": 137000.0
  },
  "salary_by_category": {
   "QA Engineer": {
-   "n": 62,
+   "n": 64,
    "p25": 82000.0,
    "median": 98000.0,
-   "p75": 120000.0
+   "p75": 126000.0
+  },
+  "Performance Tester": {
+   "n": 5,
+   "p25": 117000.0,
+   "median": 150000.0,
+   "p75": 151000.0
   },
   "QA Automation Engineer": {
-   "n": 29,
-   "p25": 95000.0,
-   "median": 117000.0,
+   "n": 28,
+   "p25": 93000.0,
+   "median": 116000.0,
    "p75": 135000.0
   },
   "QA Analyst": {
@@ -131,11 +137,23 @@
    "median": 91000.0,
    "p75": 110000.0
   },
-  "QA Lead": {
-   "n": 5,
-   "p25": 95000.0,
-   "median": 98000.0,
-   "p75": 135000.0
+  "Software Development Engineer in Test (SDET)": {
+   "n": 14,
+   "p25": 98000.0,
+   "median": 121000.0,
+   "p75": 140000.0
+  },
+  "Software Tester": {
+   "n": 22,
+   "p25": 59000.0,
+   "median": 95000.0,
+   "p75": 118000.0
+  },
+  "Test Engineer": {
+   "n": 14,
+   "p25": 104000.0,
+   "median": 117000.0,
+   "p75": 138000.0
   },
   "Test Manager": {
    "n": 12,
@@ -143,55 +161,31 @@
    "median": 163000.0,
    "p75": 182000.0
   },
-  "Software Development Engineer in Test (SDET)": {
-   "n": 13,
-   "p25": 98000.0,
-   "median": 112000.0,
-   "p75": 140000.0
-  },
   "Senior QA Engineer": {
-   "n": 40,
+   "n": 43,
    "p25": 115000.0,
    "median": 128000.0,
-   "p75": 151000.0
-  },
-  "Software Tester": {
-   "n": 23,
-   "p25": 59000.0,
-   "median": 100000.0,
-   "p75": 118000.0
-  },
-  "Performance Tester": {
-   "n": 5,
-   "p25": 117000.0,
-   "median": 140000.0,
-   "p75": 150000.0
-  },
-  "Test Engineer": {
-   "n": 14,
-   "p25": 99000.0,
-   "median": 117000.0,
-   "p75": 138000.0
+   "p75": 162000.0
   }
  },
  "salary_by_seniority": {
-  "Lead / Manager": {
-   "n": 63,
-   "p25": 98000.0,
-   "median": 138000.0,
-   "p75": 158000.0
+  "Mid-level": {
+   "n": 105,
+   "p25": 75000.0,
+   "median": 102000.0,
+   "p75": 117000.0
   },
   "Senior": {
-   "n": 46,
-   "p25": 90000.0,
-   "median": 115000.0,
-   "p75": 132000.0
+   "n": 48,
+   "p25": 92000.0,
+   "median": 116000.0,
+   "p75": 135000.0
   },
-  "Mid-level": {
-   "n": 108,
-   "p25": 80000.0,
-   "median": 106000.0,
-   "p75": 117000.0
+  "Lead / Manager": {
+   "n": 65,
+   "p25": 98000.0,
+   "median": 140000.0,
+   "p75": 162000.0
   },
   "Junior": {
    "n": 15,
@@ -200,210 +194,210 @@
    "p75": 98000.0
   }
  },
- "jobs_with_description": 1180,
+ "jobs_with_description": 1131,
  "tools": [
   [
    "Selenium",
-   346,
-   29.3
+   335,
+   29.6
   ],
   [
    "Playwright",
-   300,
-   25.4
+   299,
+   26.4
   ],
   [
    "SQL",
-   283,
-   24.0
+   273,
+   24.1
   ],
   [
    "Jira",
-   275,
-   23.3
+   266,
+   23.5
   ],
   [
    "Postman",
-   245,
-   20.8
+   234,
+   20.7
   ],
   [
    "Cypress",
-   204,
-   17.3
+   203,
+   17.9
   ],
   [
    "AWS",
-   164,
-   13.9
+   153,
+   13.5
   ],
   [
    "Jenkins",
-   156,
-   13.2
+   150,
+   13.3
   ],
   [
    "AI / LLM testing",
-   147,
-   12.5
+   143,
+   12.6
   ],
   [
    "JMeter",
    129,
-   10.9
+   11.4
   ],
   [
    "Docker",
-   126,
-   10.7
+   123,
+   10.9
   ],
   [
    "GitHub Actions",
    120,
-   10.2
+   10.6
   ],
   [
    "REST Assured",
-   102,
-   8.6
+   103,
+   9.1
   ],
   [
    "Appium",
-   99,
-   8.4
-  ],
-  [
-   "Cucumber/BDD",
-   95,
-   8.1
+   97,
+   8.6
   ],
   [
    "Kubernetes",
    93,
+   8.2
+  ],
+  [
+   "Cucumber/BDD",
+   89,
    7.9
   ],
   [
    "TestRail",
-   89,
+   85,
    7.5
   ],
   [
    "k6",
-   70,
+   67,
    5.9
   ],
   [
    "Gatling",
-   49,
-   4.2
+   46,
+   4.1
   ],
   [
    "Espresso",
    26,
-   2.2
+   2.3
   ],
   [
    "WebdriverIO",
-   20,
-   1.7
+   21,
+   1.9
   ],
   [
    "XCUITest",
    18,
-   1.5
+   1.6
   ],
   [
    "Detox",
-   7,
-   0.6
+   6,
+   0.5
   ]
  ],
  "languages": [
   [
    "Python",
-   297,
-   25.2
+   284,
+   25.1
   ],
   [
    "JavaScript",
-   257,
-   21.8
+   255,
+   22.5
   ],
   [
    "Java",
-   238,
-   20.2
+   230,
+   20.3
   ],
   [
    "TypeScript",
-   182,
-   15.4
+   183,
+   16.2
   ],
   [
    "C#",
-   84,
-   7.1
+   83,
+   7.3
   ],
   [
    "Kotlin",
-   25,
-   2.1
+   21,
+   1.9
   ],
   [
    "Swift",
-   17,
-   1.4
+   15,
+   1.3
   ],
   [
    "Ruby",
-   10,
-   0.8
+   11,
+   1.0
   ],
   [
    "Go",
-   6,
-   0.5
+   5,
+   0.4
   ]
  ],
  "countries": [
   [
    "United States",
-   404
+   395
   ],
   [
    "India",
-   109
+   105
   ],
   [
    "Canada",
-   68
+   64
   ],
   [
    "Poland",
-   48
+   44
   ],
   [
    "Philippines",
-   35
-  ],
-  [
-   "Mexico",
    34
   ],
   [
-   "United Kingdom",
-   33
+   "Mexico",
+   32
   ],
   [
    "Brazil",
    32
   ],
   [
-   "Spain",
-   23
+   "United Kingdom",
+   29
   ],
   [
    "Germany",
+   22
+  ],
+  [
+   "Spain",
    22
   ],
   [
@@ -411,24 +405,16 @@
    19
   ],
   [
-   "Colombia",
+   "Portugal",
    18
   ],
   [
-   "Portugal",
-   17
+   "Colombia",
+   15
   ],
   [
    "Greece",
    13
-  ],
-  [
-   "South Africa",
-   12
-  ],
-  [
-   "Argentina",
-   12
   ],
   [
    "Egypt",
@@ -439,7 +425,11 @@
    12
   ],
   [
-   "Australia",
+   "South Africa",
+   11
+  ],
+  [
+   "Argentina",
    11
   ],
   [
@@ -452,11 +442,11 @@
   ],
   [
    "Serbia",
-   9
+   8
   ],
   [
-   "Bulgaria",
-   8
+   "Australia",
+   7
   ],
   [
    "Switzerland",
@@ -467,8 +457,20 @@
    6
   ],
   [
+   "Bulgaria",
+   6
+  ],
+  [
    "Singapore",
    6
+  ],
+  [
+   "Turkey",
+   5
+  ],
+  [
+   "Ireland",
+   4
   ],
   [
    "Hungary",
@@ -477,14 +479,6 @@
   [
    "Italy",
    4
-  ],
-  [
-   "Hungary",
-   4
-  ],
-  [
-   "Ireland",
-   3
   ]
  ],
  "top_remote_companies": [
@@ -541,7 +535,7 @@
    "example_titles": [
     "Manual QA Engineer (US)",
     "Manual QA Engineer (UK)",
-    "Manual QA Engineer (Belgium)"
+    "Manual QA Engineer (Ukraine)"
    ],
    "where": [
     "United States",
@@ -557,7 +551,7 @@
    "example_titles": [
     "Senior QA Analyst, Privileged Access Management",
     "Senior SDET, PAM",
-    "Software Development Test Engineer (SDET), Android"
+    "Software Development Test Engineer (SDET), IOS"
    ],
    "where": [
     "United States"
@@ -611,53 +605,6 @@
    "median_salary_usd": 110000.0
   },
   {
-   "company": "XKTalent Inc. - Rimutee",
-   "remote_jobs": 7,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/u23a4yf1gn20pbcflruc7ep6echs",
-   "example_titles": [
-    "QA MANUAL SENIOR - REMOTO",
-    "QA MANUAL SENIOR",
-    "QA MANUAL LEAD"
-   ],
-   "where": [
-    "LATAM",
-    "Dominican Republic"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Nagarro",
-   "remote_jobs": 7,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/t850au6smjni0xg4l325idsg5ta4",
-   "example_titles": [
-    "Senior QA Automation",
-    "Senior QA Lead (all genders)",
-    "Principal Engineer, QA Manual"
-   ],
-   "where": [
-    "United States",
-    "Mexico"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "TECDATA ENGINEERING",
-   "remote_jobs": 7,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/h8rbeduq3yb7i49bfmj9i1dhxuhk",
-   "example_titles": [
-    "QA Engineer",
-    "QA Automatización",
-    "QA AUTOMATIZACIÓN SENIOR (FX)"
-   ],
-   "where": [
-    "Spain"
-   ],
-   "median_salary_usd": 30000.0
-  },
-  {
    "company": "DecisionPoint",
    "remote_jobs": 7,
    "url": "",
@@ -686,6 +633,54 @@
     "United States"
    ],
    "median_salary_usd": 138000.0
+  },
+  {
+   "company": "XKTalent Inc. - Rimutee",
+   "remote_jobs": 6,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/u23a4yf1gn20pbcflruc7ep6echs",
+   "example_titles": [
+    "QA MANUAL SENIOR - REMOTO",
+    "QA MANUAL SENIOR",
+    "QA MANUAL LEAD"
+   ],
+   "where": [
+    "LATAM",
+    "Dominican Republic"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Nagarro",
+   "remote_jobs": 6,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/t850au6smjni0xg4l325idsg5ta4",
+   "example_titles": [
+    "Senior QA Automation",
+    "Senior QA Lead (all genders)",
+    "Principal Engineer, QA Manual"
+   ],
+   "where": [
+    "Mexico",
+    "Austria"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Pavago",
+   "remote_jobs": 5,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/q1g70vrjd2dhofu56e7xj9wodx8e",
+   "example_titles": [
+    "QA & Training Supervisor",
+    "Web Build & QA Specialist",
+    "Quality Assurance Engineer"
+   ],
+   "where": [
+    "United States",
+    "Mexico"
+   ],
+   "median_salary_usd": null
   },
   {
    "company": "Xperteez Technology",
@@ -734,70 +729,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Pavago",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/q1g70vrjd2dhofu56e7xj9wodx8e",
-   "example_titles": [
-    "Web Build & QA Specialist",
-    "AI-Augmented QA Engineer",
-    "Quality Assurance Engineer"
-   ],
-   "where": [
-    "United States",
-    "Philippines"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Valtech",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "",
-   "example_titles": [
-    "Lead Xstore Testing",
-    "Senior QA Automation Engineer (Playwright)",
-    "QA Automation Engineer"
-   ],
-   "where": [
-    "India",
-    "Portugal"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Welo Global",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/qm45ge9z7ovif6tgv4leq7re76kc",
-   "example_titles": [
-    "Maps Quality Tester- English (Austin)",
-    "Crux - Video and Audio QA - English (US)",
-    "Crux - Video and Audio QA - French (France)"
-   ],
-   "where": [
-    "United States",
-    "France"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Ciklum",
-   "remote_jobs": 5,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/70irrmjplpl5olw8tadpeszxp2zn",
-   "example_titles": [
-    "Senior Automation QA (JavaScript) Engineer",
-    "Automation QA Engineer",
-    "Senior Automation QA Engineer"
-   ],
-   "where": [
-    "India",
-    "Bulgaria"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "Sequoia Connect",
    "remote_jobs": 5,
    "url": "",
@@ -813,36 +744,51 @@
    "median_salary_usd": null
   },
   {
+   "company": "TECDATA ENGINEERING",
+   "remote_jobs": 5,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/h8rbeduq3yb7i49bfmj9i1dhxuhk",
+   "example_titles": [
+    "QA Engineer",
+    "Tester Funcional Manual (Medios de Pago)",
+    "QA Tester(Medios de pago)"
+   ],
+   "where": [
+    "Spain"
+   ],
+   "median_salary_usd": 30000.0
+  },
+  {
+   "company": "Upgrade",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/4v7o7qdjxs2llz5osyicgscqry7m",
+   "example_titles": [
+    "Senior QA Automation Engineer (HELOC)",
+    "Senior QA Automation Engineer (Platform)",
+    "Senior QA Automation Developer (Platform)"
+   ],
+   "where": [
+    "United States",
+    "Canada"
+   ],
+   "median_salary_usd": null
+  },
+  {
    "company": "CI&T",
    "remote_jobs": 4,
    "url": "",
    "logo": "https://cdn-images.himalayas.app/gwceunf7j5byi79t5d5qq2yjvis9",
    "example_titles": [
     "[Job - 32255]  Specialist SDET, Brazil",
-    "[Job - 32612] QA Lead",
-    "[Job - 32613] QA Mid/Senior"
+    "[Job - 32613] QA Mid/Senior",
+    "[Job - 32612] QA Lead"
    ],
    "where": [
     "Brazil",
     "Brazil, Colombia"
    ],
    "median_salary_usd": null
-  },
-  {
-   "company": "micro1",
-   "remote_jobs": 4,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-   "example_titles": [
-    "AI Product Tester (Consumer Safety & Security)",
-    "Electronics Assembly Quality Engineer",
-    "Dimensional Metrology Quality Engineer"
-   ],
-   "where": [
-    "United States",
-    "Worldwide"
-   ],
-   "median_salary_usd": 330000.0
   },
   {
    "company": "Intetics",
@@ -907,22 +853,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Upgrade",
-   "remote_jobs": 4,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/4v7o7qdjxs2llz5osyicgscqry7m",
-   "example_titles": [
-    "Senior QA Automation Engineer (Platform)",
-    "Senior QA Automation Developer (Platform)",
-    "Senior QA Automation Engineer - Product (LATAM)"
-   ],
-   "where": [
-    "Canada",
-    "United States"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "Creative Chaos",
    "remote_jobs": 4,
    "url": "",
@@ -970,17 +900,34 @@
    "median_salary_usd": null
   },
   {
-   "company": "CRH Talento de IT",
+   "company": "Valtech",
    "remote_jobs": 4,
    "url": "",
    "logo": "",
    "example_titles": [
-    "QA Automation | Go SQL",
-    "QA Automation | Go + Kubernetes",
-    "QA Automation | Go"
+    "Lead Xstore Testing",
+    "Senior QA Automation Engineer (Playwright)",
+    "QA Automation Engineer"
    ],
    "where": [
-    "Mexico"
+    "India",
+    "Portugal"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Ciklum",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/70irrmjplpl5olw8tadpeszxp2zn",
+   "example_titles": [
+    "Senior Automation QA (JavaScript) Engineer",
+    "Senior Automation QA Engineer",
+    "Expert Automation QA Engineer"
+   ],
+   "where": [
+    "Ukraine",
+    "India"
    ],
    "median_salary_usd": null
   },
@@ -990,13 +937,29 @@
    "url": "",
    "logo": "https://cdn-images.himalayas.app/xlayncl85dv5ghfc9ndld6xt2lpo",
    "example_titles": [
-    "Senior QA Engineer",
     "QA Testing Analyst",
+    "Salesforce QA / Testing Analyst",
     "QA Lead"
    ],
    "where": [
     "Jordan",
     "Egypt, India, Jordan"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Welo Global",
+   "remote_jobs": 4,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/qm45ge9z7ovif6tgv4leq7re76kc",
+   "example_titles": [
+    "Crux - Video and Audio QA - Indonesian (Indonesia)",
+    "Crux - Video and Audio QA - English (US)",
+    "Crux - Video and Audio QA - French (France)"
+   ],
+   "where": [
+    "Indonesia",
+    "United States"
    ],
    "median_salary_usd": null
   },
@@ -1016,17 +979,32 @@
    "median_salary_usd": null
   },
   {
-   "company": "Softtest pays",
-   "remote_jobs": 4,
+   "company": "Black Semiconductor",
+   "remote_jobs": 3,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/6elzt6nn7ev6l915nvajefpfey3w",
+   "example_titles": [
+    "Automation Test Engineer (f/m/d)",
+    "Senior ATE Test Engineer (f/m/d)",
+    "Graphene Photonics Device Reliability Testing Engineer (f/m/d)"
+   ],
+   "where": [
+    "Germany"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Aras",
+   "remote_jobs": 3,
    "url": "",
    "logo": "",
    "example_titles": [
-    "Test Engineer",
-    "Workday Testers",
-    "Software Tester"
+    "Senior Test Engineer (m/f/d)",
+    "QA Engineer",
+    "Software Test Engineer (m/f/d)"
    ],
    "where": [
-    "Australia"
+    "Poland"
    ],
    "median_salary_usd": null
   },
@@ -1039,21 +1017,6 @@
     "Lead Quality Engineering, Onboarding",
     "Lead Quality Engineer",
     "Principal Quality Engineer"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 140000.0
-  },
-  {
-   "company": "Bright Vision Technologies",
-   "remote_jobs": 3,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/tillsehd3opuq2p5lraeki82dq3v",
-   "example_titles": [
-    "Test Automation Architect",
-    "Mobile Performance Test Engineer",
-    "QA Engineer – Automation"
    ],
    "where": [
     "United States"
@@ -1075,22 +1038,6 @@
     "United Kingdom"
    ],
    "median_salary_usd": 27000.0
-  },
-  {
-   "company": "AlphaSense",
-   "remote_jobs": 3,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/yonhf7g4kr6y4nq2kugdazfp68pz",
-   "example_titles": [
-    "Staff QE, Mobile",
-    "Staff QE",
-    "Staff Software Engineer, QE"
-   ],
-   "where": [
-    "United Kingdom",
-    "United States"
-   ],
-   "median_salary_usd": 176000.0
   },
   {
    "company": "Labcorp",
@@ -1146,8 +1093,8 @@
    "logo": "https://cdn-images.himalayas.app/df8pex9h258g27jt218ft5fpv2u5",
    "example_titles": [
     "Senior QA Automation Engineer - Yang Models",
-    "QA Engineer with Networking and UI automation",
-    "Network Test Automation"
+    "Network Test Automation",
+    "QA Engineer with Networking and UI automation"
    ],
    "where": [
     "Poland"
@@ -1283,8 +1230,8 @@
    "url": "",
    "logo": "https://cdn-images.himalayas.app/0fgsan3hjd35cyrzrdjoru6gz1gn",
    "example_titles": [
-    "Quality Assurance Services - Standard. | Comprehensive Operational Support [DEA0",
     "Test Engineer I (ITS15) Custom Computer Programming Services",
+    "Quality Assurance Services - Standard. | Comprehensive Operational Support [DEA0",
     "Environmental Justice Air-Quality Engineer (EJE5)"
    ],
    "where": [
@@ -1314,8 +1261,8 @@
    "url": "",
    "logo": "https://cdn-images.himalayas.app/19vp1tj2hiu3u6c0ayy4u95l8ca4",
    "example_titles": [
-    "Quality Manager & Automation Tester",
     "Tester",
+    "Quality Manager & Automation Tester",
     "Quality Engineer"
    ],
    "where": [
@@ -1390,8 +1337,8 @@
    "url": "",
    "logo": "",
    "example_titles": [
-    "Senior QA Engineer (Mobile)",
     "Fullstack QA Engineer (Mobile)",
+    "Senior QA Engineer (Mobile)",
     "Security QA Engineer (Mobile)"
    ],
    "where": [
@@ -1406,8 +1353,8 @@
    "logo": "https://cdn-images.himalayas.app/ewj3d0qqlzc4t9mlhlq4irh7ebnc",
    "example_titles": [
     "Principal QA Engineer/ QA Manager",
-    "(Sr.) QA Engineer",
-    "(Sr.) QA Automation Engineer"
+    "(Sr.) QA Automation Engineer",
+    "(Sr.) QA Engineer"
    ],
    "where": [
     "APAC",
@@ -1447,17 +1394,75 @@
    "median_salary_usd": null
   },
   {
-   "company": "Consultec-TI",
+   "company": "micro1",
    "remote_jobs": 3,
    "url": "",
-   "logo": "https://cdn-images.himalayas.app/a52aolr409xklr7zi3pr8ot1jcmn",
+   "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
    "example_titles": [
-    "QA Automation Engineer",
-    "QA Analyst / Test Engineer",
-    "Analista de Requerimientos & QA Funcional"
+    "Dimensional Metrology Quality Engineer",
+    "Electronics Assembly Quality Engineer",
+    "Member of Technical Staff, Quality Engineering"
    ],
    "where": [
-    "Venezuela"
+    "Worldwide",
+    "United States"
+   ],
+   "median_salary_usd": 330000.0
+  },
+  {
+   "company": "Groundswell",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/s5ofr8tyojyjv65vtx5tmnbbvkta",
+   "example_titles": [
+    "Senior Performance Appian Test Engineer",
+    "Automated Testing Manager"
+   ],
+   "where": [
+    "United States"
+   ],
+   "median_salary_usd": 134000.0
+  },
+  {
+   "company": "PM Consulting",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/6io4yu7wi9a1hwenoib07rhhromu",
+   "example_titles": [
+    "Manhattan Tester",
+    "Principal Test Lead"
+   ],
+   "where": [
+    "Philippines"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Computrition",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/3b5a6w4rd73x5f4h5awnkstrsb3s",
+   "example_titles": [
+    "QA Team Lead",
+    "Quality Engineering Lead / Automation Architect"
+   ],
+   "where": [
+    "Canada"
+   ],
+   "median_salary_usd": 78000.0
+  },
+  {
+   "company": "Fortive",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/9e77ghsp5ecnrwa4kyxgufjonj1m",
+   "example_titles": [
+    "Regulatory Affairs & Quality Assurance Specialist, MEA",
+    "Quality Assurance Engineering"
+   ],
+   "where": [
+    "Portugal, Spain",
+    "Brazil"
    ],
    "median_salary_usd": null
   },
@@ -1534,20 +1539,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "RubyPlay",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "",
-   "example_titles": [
-    "QA Engineer",
-    "Senior QA Engineer"
-   ],
-   "where": [
-    "Poland"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "GoFasti",
    "remote_jobs": 2,
    "url": "",
@@ -1563,18 +1554,19 @@
    "median_salary_usd": null
   },
   {
-   "company": "CSB Bank",
+   "company": "AlphaSense",
    "remote_jobs": 2,
    "url": "",
-   "logo": "https://cdn-images.himalayas.app/nxgppd28uvcguq67yqh4oe6r9e0w",
+   "logo": "https://cdn-images.himalayas.app/yonhf7g4kr6y4nq2kugdazfp68pz",
    "example_titles": [
-    "Team Member - Offsite Audit, Concurrent Audit & QA| Mumbai",
-    "Team Supervisor - Offsite Audit, Concurrent Audit & QA| Thrissur"
+    "Staff QE, Mobile",
+    "Staff QE"
    ],
    "where": [
-    "India"
+    "United Kingdom",
+    "United States"
    ],
-   "median_salary_usd": null
+   "median_salary_usd": 176000.0
   },
   {
    "company": "Zayo Group",
@@ -1589,20 +1581,6 @@
     "United States"
    ],
    "median_salary_usd": 134000.0
-  },
-  {
-   "company": "Acronis",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/ibaotg8p40o1ey5x0panlte710ud",
-   "example_titles": [
-    "Senior Automation QA Engineer (Python / Cloud Infrastructure)",
-    "Senior AI QA Engineer – Automation & Cloud Infrastructure"
-   ],
-   "where": [
-    "Europe"
-   ],
-   "median_salary_usd": null
   },
   {
    "company": "Bonapolia",
@@ -1692,20 +1670,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Codeminders",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/230a762tt0ukbfix0itft0zdexbd",
-   "example_titles": [
-    "QA Automation Lead (API & MCP) — EU-Based",
-    "QA Automation Lead (Data Engineering)"
-   ],
-   "where": [
-    "Europe"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "Rivian",
    "remote_jobs": 2,
    "url": "",
@@ -1748,35 +1712,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Aras",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "",
-   "example_titles": [
-    "QA Engineer",
-    "Software Test Engineer (m/f/d)"
-   ],
-   "where": [
-    "Poland"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Harris",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/nffmqfhnatgpzdd92z6kqwy505tj",
-   "example_titles": [
-    "Staff AI Engineer - QA",
-    "Sr Quality Engineer"
-   ],
-   "where": [
-    "Canada, United States",
-    "India"
-   ],
-   "median_salary_usd": 140000.0
-  },
-  {
    "company": "Softtek",
    "remote_jobs": 2,
    "url": "",
@@ -1802,21 +1737,6 @@
    "where": [
     "Ukraine",
     "Poland"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Motorola Solutions",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/wrwjjejxt406bwtydu0acmhx0lhh",
-   "example_titles": [
-    "Mid-Level Quality Assurance Engineer",
-    "QA Engineer"
-   ],
-   "where": [
-    "Brazil",
-    "South Africa"
    ],
    "median_salary_usd": null
   },
@@ -1914,20 +1834,6 @@
    "example_titles": [
     "Lead AI Test Automation Architect",
     "Testing Analyst"
-   ],
-   "where": [
-    "Canada"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "nesto",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/k1m5w3j70e7n5mfdj5y4j82h753k",
-   "example_titles": [
-    "Développeur(euse) Senior en QA de données",
-    "Salesforce QA Automation Developer"
    ],
    "where": [
     "Canada"
@@ -2093,34 +1999,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Impiricus",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/p6l8qojba1dut5pgw9oqhpcvu8xd",
-   "example_titles": [
-    "QA Automation Manager",
-    "QA Automation Engineer"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 125000.0
-  },
-  {
-   "company": "Logistics Management Institute",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/4ihouhoaior7pdc3vaa4yedyvgi7",
-   "example_titles": [
-    "Systems Engineering Test Lead - Clearance Required",
-    "Quality Assurance Specialist - Clearance Required"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 134000.0
-  },
-  {
    "company": "Jobs for Humanity",
    "remote_jobs": 2,
    "url": "",
@@ -2192,35 +2070,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Koniag Government Services",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/5npqyy16u4cs53u4noy4nbk8ji2j",
-   "example_titles": [
-    "Business Analyst & Tester (SECRET)",
-    "System Analyst & Tester"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 115000.0
-  },
-  {
-   "company": "Stefanini",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/vtgaap0h94hul4m8q8uyiwu7cdbg",
-   "example_titles": [
-    "QA Automatizado - Líder COE",
-    "QA Funcional"
-   ],
-   "where": [
-    "Brazil",
-    "Chile"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "AKKO",
    "remote_jobs": 2,
    "url": "",
@@ -2246,21 +2095,6 @@
    "where": [
     "Spain",
     "Worldwide"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Freedom24",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/todw4eryhrzw8kzfkjvlkndu2b7u",
-   "example_titles": [
-    "Fullstack QA Engineer",
-    "QA Engineer (Manual QA experience required)"
-   ],
-   "where": [
-    "4 countries",
-    "Estonia, Montenegro, Serbia"
    ],
    "median_salary_usd": null
   },
@@ -2356,27 +2190,13 @@
    "url": "",
    "logo": "https://cdn-images.himalayas.app/vugic74mj0xq2xp9missgijjjfii",
    "example_titles": [
-    "Platform Quality Engineer",
-    "Quality Engineer (SDET)"
+    "Quality Engineer (SDET)",
+    "Platform Quality Engineer"
    ],
    "where": [
     "United Kingdom"
    ],
    "median_salary_usd": null
-  },
-  {
-   "company": "Circular Materials",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/yz1fcdcnjkwwbo76q9t9igs9t6mn",
-   "example_titles": [
-    "QA Tester, Data Integration - Canada Remote 12 Month Contract",
-    "Data Integration QA Lead (SAP, CRM & AWS) - Canada Remote 12-mos Contract"
-   ],
-   "where": [
-    "Canada"
-   ],
-   "median_salary_usd": 59000.0
   },
   {
    "company": "Expedock",
@@ -2442,8 +2262,8 @@
    "url": "",
    "logo": "https://cdn-images.himalayas.app/swqn08bzlpyqut17rxwjkyabsnm4",
    "example_titles": [
-    "Technical QA and Automation Lead",
-    "Cloud Migration Test Automation Engineer"
+    "Cloud Migration Test Automation Engineer",
+    "Technical QA and Automation Lead"
    ],
    "where": [
     "United States"
@@ -2456,8 +2276,8 @@
    "url": "",
    "logo": "https://cdn-images.himalayas.app/hzgmhbbp4l6iyjwhluejbqaq6o0t",
    "example_titles": [
-    "Support & QA Specialist, Tax",
-    "Tax Software QA & Support Analyst"
+    "Tax Software QA & Support Analyst",
+    "Support & QA Specialist, Tax"
    ],
    "where": [
     "United States"
@@ -2506,21 +2326,6 @@
     "Worldwide"
    ],
    "median_salary_usd": null
-  },
-  {
-   "company": "Codekeeper",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/5ta430h2m88lxqwyb9qhozx2u28u",
-   "example_titles": [
-    "QA & Verifications Specialist",
-    "QA & Verifications Engineer"
-   ],
-   "where": [
-    "Romania",
-    "Poland"
-   ],
-   "median_salary_usd": 55000.0
   },
   {
    "company": "Kainos",
@@ -2607,6 +2412,20 @@
    "median_salary_usd": null
   },
   {
+   "company": "Consultec-TI",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/a52aolr409xklr7zi3pr8ot1jcmn",
+   "example_titles": [
+    "QA Automation Engineer",
+    "QA Analyst / Test Engineer"
+   ],
+   "where": [
+    "Venezuela"
+   ],
+   "median_salary_usd": null
+  },
+  {
    "company": "TripleTen",
    "remote_jobs": 2,
    "url": "",
@@ -2618,34 +2437,6 @@
    "where": [
     "Mexico",
     "LATAM"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Amyx",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/je6iboqgwfaeqzqy7e5tjenpnplt",
-   "example_titles": [
-    "Senior Project Analyst and Testing Engineer",
-    "Platform Testing Specialist"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 110000.0
-  },
-  {
-   "company": "Black Semiconductor",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/6elzt6nn7ev6l915nvajefpfey3w",
-   "example_titles": [
-    "Senior ATE Test Engineer (f/m/d)",
-    "Graphene Photonics Device Reliability Testing Engineer (f/m/d)"
-   ],
-   "where": [
-    "Germany"
    ],
    "median_salary_usd": null
   },
@@ -2702,6 +2493,192 @@
    ],
    "where": [
     "Canada"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "SEAhub Asia",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/fhi5rn04e28i0fmsmx5oaduybi0r",
+   "example_titles": [
+    "QA & Training Executive",
+    "Quality Assurance Executive"
+   ],
+   "where": [
+    "Malaysia"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Eggs Unlimited",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/6fzbm8uos4vtot3tfkvts546j0wz",
+   "example_titles": [
+    "QA Administrator - Remote (Philippines) | US Hours",
+    "QA Admin Assistant - Remote (Philippines) | US Hours"
+   ],
+   "where": [
+    "Philippines"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Softtest pays",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "Workday Testers",
+    "Software Tester"
+   ],
+   "where": [
+    "Australia"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Rubicon Path",
+   "remote_jobs": 2,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "RQ08848 - Systems Testing/QA Specialist - Senior",
+    "RQ08378 - Sr. Systems Testing/QA Specialist"
+   ],
+   "where": [
+    "Canada"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "CertiK",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/03/Jobicy-210308091023-955845.jpg",
+   "example_titles": [
+    "Sr. Security Engineer (Penetration Testing)"
+   ],
+   "where": [
+    "United States"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Imprint",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/afs32bo48mdjzlk155t5l5uqc5r0",
+   "example_titles": [
+    "Email Developer & QA Specialist"
+   ],
+   "where": [
+    "United States"
+   ],
+   "median_salary_usd": 165000.0
+  },
+  {
+   "company": "InfraCloud",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/t2iu2cg9abyy2jd6r9ey2sr8zc5b",
+   "example_titles": [
+    "Senior Spark QA Engineer"
+   ],
+   "where": [
+    "India"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "SwissPeak Partners",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "Software Test Engineer"
+   ],
+   "where": [
+    "Worldwide"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Global {M}",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/q9tf41hfc6zwh5zfgn5e5x4ahldw",
+   "example_titles": [
+    "QA Engineer"
+   ],
+   "where": [
+    "United Kingdom"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Forbes",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/slpidjuvxaj4m1xkcnvxb1xxxehi",
+   "example_titles": [
+    "Product Testing Lead"
+   ],
+   "where": [
+    "United States"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "GSB Solutions",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "",
+   "example_titles": [
+    "SAP Tester Manager | Remote in Mexico"
+   ],
+   "where": [
+    "Mexico"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Evidence in Motion",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/i28k0lbui8wo0avyj21yxqgnrx3u",
+   "example_titles": [
+    "Manager Quality Assurance"
+   ],
+   "where": [
+    "United States"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Lingaro",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/2yduj9pybzkuo66cd07vdvrabxac",
+   "example_titles": [
+    "Test Automation Engineer"
+   ],
+   "where": [
+    "India"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Reserv",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/bv8vn6puw123i30pgt4i29ajovvx",
+   "example_titles": [
+    "Quality Assurance"
+   ],
+   "where": [
+    "United States"
    ],
    "median_salary_usd": null
   }
