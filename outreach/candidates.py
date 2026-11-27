@@ -31,7 +31,7 @@ SOFT = re.compile(r"\b(QA|SDET|Quality Assurance|Test(er|ing)?|Automation)\b", r
 NOT_SOFT = re.compile(r"penetration|metrology|manufactur|mechanical|clinical|food|supplier|welding|construction|"
                       r"laborator|chemical|electrical|hardware|pharma|medical device|call cent|GxP|GMP|advocacy|reliability|photonics|environmental|device", re.I)
 # Lielie uzņēmumi un konsultāciju milži par sludinājumu nemaksās
-BIG = re.compile(r"sopra steria|motorola|surveymonkey|softtek|republic services|virtusa|first advantage|sharecare|cdm smith|labcorp|akamai|clarivate|mashreq|intertek|idt corporation|nagarro|coinmarketcap|stillfront|nvidia|google|amazon|microsoft|apple|meta|oracle|ibm|sap\b|^sas$|bosch|cgi\b|expleo|alten|"
+BIG = re.compile(r"rocket software|isoftstone|spyrosoft|chickasaw nation|premier inc|bristol myers|henry ford health|sopra steria|motorola|surveymonkey|softtek|republic services|virtusa|first advantage|sharecare|cdm smith|labcorp|akamai|clarivate|mashreq|intertek|idt corporation|nagarro|coinmarketcap|stillfront|nvidia|google|amazon|microsoft|apple|meta|oracle|ibm|sap\b|^sas$|bosch|cgi\b|expleo|alten|"
                  r"accenture|capgemini|deloitte|infosys|wipro|tcs|tata|cognizant|hcl|peraton|leidos|lockheed|"
                  r"raytheon|boeing|siemens|ericsson|nokia|intel\b|cisco|dell|hp\b|salesforce|adobe|jpmorgan|"
                  r"citi|wells fargo|bank of america|walmart|uber|netflix|spotify|epam|globallogic|luxoft|"
