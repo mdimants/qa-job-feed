@@ -56,7 +56,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [ ] How to Write a QA Engineer Resume That Gets Interviews
 - [ ] QA Lead vs Test Manager: Responsibilities and Pay
 - [x] Performance Testing Jobs: k6, JMeter and Gatling Demand — 2026-11-24, /blog/performance-testing-jobs-2026
-- [ ] Mobile QA Jobs: Appium, Detox, XCUITest and Espresso
+- [x] Mobile QA Jobs: Appium, Detox, XCUITest and Espresso — 2026-11-27, /blog/mobile-qa-jobs-2026
 - [ ] API Testing Skills Employers Want (Postman, REST Assured)
 - [ ] Python vs Java vs TypeScript for Test Automation Jobs
 - [x] QA Jobs in India: Remote Roles You Can Apply For — 2026-11-26, /blog/qa-jobs-in-india-2026
