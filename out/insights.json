@@ -1,12 +1,12 @@
 {
  "generated": "2026-11-28",
- "total_jobs": 1210,
- "raw_found": 4779,
- "remote_jobs": 1110,
+ "total_jobs": 1204,
+ "raw_found": 4762,
+ "remote_jobs": 1104,
  "remote_share": 91.7,
- "new_last_7_days": 295,
- "companies": 814,
- "remote_companies": 757,
+ "new_last_7_days": 293,
+ "companies": 811,
+ "remote_companies": 754,
  "categories": [
   [
    "QA Engineer",
@@ -14,11 +14,11 @@
   ],
   [
    "QA Automation Engineer",
-   216
+   212
   ],
   [
    "Senior QA Engineer",
-   143
+   142
   ],
   [
    "Software Tester",
@@ -49,12 +49,12 @@
    25
   ],
   [
-   "QA Lead",
-   25
-  ],
-  [
    "Performance Tester",
    24
+  ],
+  [
+   "QA Lead",
+   25
   ],
   [
    "Test Lead",
@@ -68,7 +68,7 @@
  "seniority": [
   [
    "Mid-level",
-   720
+   718
   ],
   [
    "Senior",
@@ -76,7 +76,7 @@
   ],
   [
    "Lead / Manager",
-   184
+   182
   ],
   [
    "Junior",
@@ -86,7 +86,7 @@
  "job_types": [
   [
    "fulltime",
-   1010
+   1004
   ],
   [
    "contract",
@@ -107,7 +107,7 @@
  ],
  "salary_disclosed_share": 19.1,
  "salary_overall": {
-  "n": 231,
+  "n": 230,
   "p25": 82000.0,
   "median": 110000.0,
   "p75": 135000.0
@@ -168,10 +168,10 @@
    "p75": 119000.0
   },
   "Senior QA Engineer": {
-   "n": 37,
+   "n": 36,
    "p25": 115000.0,
    "median": 128000.0,
-   "p75": 146000.0
+   "p75": 160000.0
   }
  },
  "salary_by_seniority": {
@@ -188,7 +188,7 @@
    "p75": 163000.0
   },
   "Senior": {
-   "n": 45,
+   "n": 44,
    "p25": 90000.0,
    "median": 115000.0,
    "p75": 132000.0
@@ -200,77 +200,72 @@
    "p75": 98000.0
   }
  },
- "jobs_with_description": 1173,
+ "jobs_with_description": 1167,
  "tools": [
   [
    "Selenium",
-   346,
-   29.5
+   342,
+   29.3
   ],
   [
    "Playwright",
-   310,
-   26.4
+   307,
+   26.3
   ],
   [
    "SQL",
-   284,
+   282,
    24.2
   ],
   [
    "Jira",
-   274,
-   23.4
+   272,
+   23.3
   ],
   [
    "Postman",
-   241,
+   239,
    20.5
   ],
   [
    "Cypress",
-   205,
-   17.5
+   203,
+   17.4
   ],
   [
    "AWS",
-   164,
+   163,
    14.0
   ],
   [
    "AI / LLM testing",
-   156,
-   13.3
+   154,
+   13.2
   ],
   [
    "Jenkins",
-   154,
-   13.1
+   152,
+   13.0
   ],
   [
    "JMeter",
-   131,
-   11.2
+   129,
+   11.1
   ],
   [
    "Docker",
-   130,
+   129,
    11.1
   ],
   [
    "GitHub Actions",
-   123,
+   122,
    10.5
   ],
   [
    "REST Assured",
-   105,
-   9.0
-  ],
-  [
-   "Kubernetes",
-   96,
-   8.2
+   103,
+   8.8
   ],
   [
    "Appium",
@@ -278,18 +273,23 @@
    8.2
   ],
   [
+   "Kubernetes",
+   95,
+   8.1
+  ],
+  [
    "Cucumber/BDD",
-   94,
-   8.0
+   92,
+   7.9
   ],
   [
    "TestRail",
    87,
-   7.4
+   7.5
   ],
   [
    "k6",
-   73,
+   72,
    6.2
   ],
   [
@@ -321,28 +321,28 @@
  "languages": [
   [
    "Python",
-   291,
+   289,
    24.8
   ],
   [
    "JavaScript",
-   259,
-   22.1
+   257,
+   22.0
   ],
   [
    "Java",
-   234,
-   19.9
+   231,
+   19.8
   ],
   [
    "TypeScript",
-   189,
-   16.1
+   187,
+   16.0
   ],
   [
    "C#",
-   90,
-   7.7
+   89,
+   7.6
   ],
   [
    "Kotlin",
@@ -368,11 +368,11 @@
  "countries": [
   [
    "United States",
-   404
+   403
   ],
   [
    "India",
-   107
+   106
   ],
   [
    "Canada",
@@ -380,7 +380,7 @@
   ],
   [
    "Poland",
-   53
+   52
   ],
   [
    "Philippines",
@@ -392,7 +392,7 @@
   ],
   [
    "Brazil",
-   30
+   29
   ],
   [
    "United Kingdom",
@@ -404,7 +404,7 @@
   ],
   [
    "Spain",
-   23
+   22
   ],
   [
    "Portugal",
@@ -479,11 +479,11 @@
    4
   ],
   [
-   "Hungary",
+   "Italy",
    4
   ],
   [
-   "Italy",
+   "Hungary",
    4
   ]
  ],
@@ -541,7 +541,7 @@
    "example_titles": [
     "Manual QA Engineer (US)",
     "Manual QA Engineer (UK)",
-    "Manual QA Engineer (Romania)"
+    "Manual QA Engineer (Belgium)"
    ],
    "where": [
     "United States",
@@ -1803,20 +1803,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Labcorp",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/4a2knc74suqz3eok2941bfa7qvnf",
-   "example_titles": [
-    "Manager, Software Quality Assurance Automation",
-    "Software Quality Assurance Analyst III"
-   ],
-   "where": [
-    "India"
-   ],
-   "median_salary_usd": null
-  },
-  {
    "company": "Zayo Group",
    "remote_jobs": 2,
    "url": "",
@@ -2161,20 +2147,6 @@
    "median_salary_usd": null
   },
   {
-   "company": "Public Consulting Group",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/a88a5ft6e1vcr987um6k560502i3",
-   "example_titles": [
-    "Sr QA Engineer 2",
-    "Quality Assurance Specialist 1"
-   ],
-   "where": [
-    "United States"
-   ],
-   "median_salary_usd": 84000.0
-  },
-  {
    "company": "Jobs for Humanity",
    "remote_jobs": 2,
    "url": "",
@@ -2371,21 +2343,6 @@
    ],
    "where": [
     "Philippines"
-   ],
-   "median_salary_usd": null
-  },
-  {
-   "company": "Initium Software",
-   "remote_jobs": 2,
-   "url": "",
-   "logo": "https://cdn-images.himalayas.app/627olwr16huarraejdo3qs34g3s7",
-   "example_titles": [
-    "Automation Engineer – Guidewire Testing",
-    "QA Analista de Pruebas de Rendimiento-Ecuador"
-   ],
-   "where": [
-    "Spain",
-    "Ecuador, United States"
    ],
    "median_salary_usd": null
   },
@@ -2696,6 +2653,45 @@
    ],
    "where": [
     "Germany"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "Trekki AB",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/fhnf32imaoj55jjdixiacgyidx0k",
+   "example_titles": [
+    "QA Engineer (Testare)"
+   ],
+   "where": [
+    "Sweden"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "OrderMesh",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://cdn-images.himalayas.app/1si4t6gjb6ca6dn37mxjt069nl2k",
+   "example_titles": [
+    "Junior Software Development Engineer in Test (SDET)"
+   ],
+   "where": [
+    "Colombia"
+   ],
+   "median_salary_usd": null
+  },
+  {
+   "company": "OpenAI",
+   "remote_jobs": 1,
+   "url": "",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2023/03/0523b13262b12c215d8009938f5c14f1.jpeg",
+   "example_titles": [
+    "ChatGPT Performance Engineer"
+   ],
+   "where": [
+    "United States"
    ],
    "median_salary_usd": null
   }
