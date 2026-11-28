@@ -50,7 +50,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [x] The Most In-Demand QA Automation Tools in 2026 (from Real Job Posts) — 2026-11-05, /blog/most-in-demand-qa-automation-tools-2026
 - [x] Remote QA Jobs in 2026: Who's Hiring and Where You Can Work From — 2026-11-05, /blog/remote-qa-jobs-2026-who-is-hiring
 - [x] How to Get Your First QA Job in 2026 (Junior QA Roadmap) — 2026-11-05, /blog/how-to-get-your-first-qa-job-2026
-- [ ] SDET vs QA Engineer: Differences in Skills, Salary and Demand
+- [x] SDET vs QA Engineer: Differences in Skills, Salary and Demand — 2026-11-28, /blog/sdet-vs-qa-engineer-2026
 - [x] Playwright vs Selenium vs Cypress: What Employers Ask For in 2026 — 2026-11-17, /blog/playwright-vs-selenium-vs-cypress-2026
 - [ ] Manual QA Tester Jobs in 2026: Is Manual Testing Still Hiring?
 - [x] QA Automation Engineer Interview Questions (with Answers) — 2026-11-15, /blog/qa-automation-engineer-interview-questions

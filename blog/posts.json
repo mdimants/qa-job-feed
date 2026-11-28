@@ -324,5 +324,14 @@
   "meta_description": "This week's QA job market: 1,204 open jobs, $110k median salary, 91.7% remote, Playwright and AI testing growth, plus 10 new QA jobs worth applying for.",
   "published": "2026-11-28",
   "jb_id": 3162
+ },
+ {
+  "slug": "sdet-vs-qa-engineer-2026",
+  "title": "SDET vs QA Engineer in 2026: Skills, Salary and Demand Compared",
+  "excerpt": "SDET posts pay a median $121k vs $98k for QA engineers and ask for CI/CD 84% vs 30% of the time. Skills, seniority and demand from 1,204 QA jobs.",
+  "tags": "sdet, qa engineer, qa salary, test automation, career, qa jobs",
+  "meta_title": "SDET vs QA Engineer 2026: Skills, Salary, Demand",
+  "meta_description": "SDET jobs pay a median $121k vs $98k for QA engineers. Compare skills, tools, seniority and demand from 1,204 real QA job posts.",
+  "published": "2026-11-28"
  }
 ]
