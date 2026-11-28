@@ -1,0 +1,15 @@
+QA Job Board now lists 1,204 open QA jobs from 811 companies, 114 more than a week ago.
+
+What changed this week:
+- AI and LLM testing grew fastest: 154 job posts mention it, up from 120.
+- Playwright added 32 mentions (now 307), Selenium 17 (now 342).
+- The median advertised QA salary held at $110,000.
+- 91.7% of the jobs are remote, but many remote roles are still limited to one country.
+
+We also picked 10 new QA jobs worth applying for, from a $57k junior automation role to a $234k principal quality engineer.
+
+Have you added AI or LLM testing to your CV yet?
+
+Full article: https://www.qajobboard.com/blog/qa-jobs-weekly-2026-11-28
+
+#QA #SoftwareTesting #SDET #TestAutomation #QAJobs

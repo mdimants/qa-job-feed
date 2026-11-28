@@ -45,6 +45,7 @@ Katrs raksts atbild uz meklējumu „<loma/rīks/valsts> jobs” un ved uz attie
 - [ ] QA Jobs at Startups vs Big Tech — 2026-11-24 izlaists: plūsmā nav uzņēmumu lieluma datu
 
 ## Tēmas
+- [x] QA Jobs Weekly: November 28, 2026 (sestdienas pārskats; prioritāšu saraksts izsmelts) — 2026-11-28, /blog/qa-jobs-weekly-2026-11-28
 - [x] QA Engineer Salary in 2026: What QA Job Posts Actually Pay — 2026-11-05, /blog/qa-engineer-salary-2026
 - [x] The Most In-Demand QA Automation Tools in 2026 (from Real Job Posts) — 2026-11-05, /blog/most-in-demand-qa-automation-tools-2026
 - [x] Remote QA Jobs in 2026: Who's Hiring and Where You Can Work From — 2026-11-05, /blog/remote-qa-jobs-2026-who-is-hiring
